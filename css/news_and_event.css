@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
+/* Hero styling */
 #hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    min-height: 500px;
+    width: 100%;
     text-align: center;
     font-size: 18px;
-    color: black;
-    background-color: rgb(21, 193, 118);
+    color: #7b88a8;
+    background-color: #f8faff;
 }
 
 #hero-section h2 {
     font-size: 64px;
+    color: #2d3958;
 }
 
 @media (max-width:400px){
@@ -110,7 +113,7 @@
     bottom: 0%;
     z-index: -1;
     height: 50%;
-    background-color: #01050f;
+    background-color: #01050f!important;
 }
 
 @media screen and (max-width: 991px){
@@ -132,7 +135,6 @@
     align-items: center;
     border-radius: 24px;
     background-color: #eef3f7;
-    background-image: url(https://uploads-ssl.webflow.com/60aff10…/60aff10…_Pattern%20Shape.svg);
     background-position: 50% 50%;
     background-size: cover;
 }
