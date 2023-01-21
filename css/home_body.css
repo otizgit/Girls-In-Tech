@@ -1,5 +1,5 @@
-section {
-    /* background-color: #f8faff; */
+.section-light {
+    background-color: #f8faff;
 }
 
 .section-white {
@@ -25,7 +25,7 @@ section {
 }
 
 @media (max-width:479px){
-    .feature-grid {
+    .w-layout-grid {
         justify-items: center;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -33,6 +33,7 @@ section {
         grid-template-rows: auto auto auto auto;
     }
 }
+
 
 .feature-block {
     display: flex;
@@ -53,6 +54,34 @@ section {
     margin-top: 50px;
     box-shadow: 39px 39px 78px 0 rgb(203 184 255 / 11%);
 }
+
+@media (max-width: 991px){
+    .feature-block {
+        max-height: 260px;
+    }
+}
+
+@media (max-width: 767px){
+    .feature-block {
+        width: 100%;
+        max-width: 430px;
+    }
+}
+
+@media (max-width: 479px){
+    .feature-block {
+        width: auto;
+        max-width: 230px;
+        min-width: 210px;
+    }
+}
+
+@media (max-width: 479px){
+    .feature-block.feature-02 {
+        margin-top: 0px;
+    }
+}
+
 
 .content-h1 {
     margin-top: 67px;
@@ -102,10 +131,6 @@ p {
 .arrow-text {
     font-size: 25px;
     margin: 0 14px 0 0;
-}
-
-#cisco-academy {
-    margin-top: 70px;
 }
 
 #cisco-academy .img img,
