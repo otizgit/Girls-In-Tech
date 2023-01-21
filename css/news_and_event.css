@@ -28,6 +28,11 @@
     }
 }
 
+#headlines,
+#latest-news {
+    padding: 40px 3% 
+}
+
 #headlines img,
 #latest-news img {
     border-radius: 20px;
