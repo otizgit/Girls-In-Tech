@@ -66,28 +66,33 @@ form button{
     /* background-color: red; */
     height: 350px;
    }
-   ul{
+  .footer-div2 ul,
+  .footer-div3 ul{
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
    }
-   ul h4{
+  .footer-div2 ul h4,
+  .footer-div3 ul h4{
     color: #ccbff1;
     text-transform: uppercase
    }
-   ul li{
+  .footer-div2 ul li,
+  .footer-div3 ul li{
     list-style-type: none;
    }
-   ul li a{
+  .footer-div2 ul li a,
+  .footer-div3 ul li a{
     text-decoration: none;
     color: #fff;
    }
-   ul li a:hover{
+  .footer-div2 ul li a:hover,
+  .footer-div3 ul li a:hover{
     color: #ccbff1;
    }
-@media(max-width: 922px){
+   @media(max-width: 922px){
     footer{
         flex-direction:column;
         height: 100%;
