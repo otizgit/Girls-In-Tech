@@ -185,7 +185,8 @@ nav ul li {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding-left: 30px;
+        padding: 30px;
+        background: #eee;
     }
     nav ul li a:hover,
     .drop-down p:hover {
