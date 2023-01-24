@@ -25,7 +25,15 @@ section {
   justify-content: space-around;
   align-items: center;
   gap: 40px;
- }
+}
+
+/* Hack to go around Section's CSS for above */
+section.consultation-call {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%!important;
+}
+
  section aside{
     width: 30%;
 }
