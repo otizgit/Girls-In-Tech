@@ -7,7 +7,6 @@
   font-family: "DM Sans", sans-serif;
   text-decoration: none;
   list-style: none;
-  /* overflow-x: hidden; */
 }
 :root{
     --headers: #2d3958;
@@ -68,9 +67,7 @@ article a:after {
   transition: all 0.6s;
   font-size: 2rem;
 }
-/* article a:hover {
-  padding-right: 25px;
-} */
+
 article a:hover:after {
   right: -20px;
   opacity: 1;
