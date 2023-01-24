@@ -8,7 +8,6 @@
 footer {
   background-color: #1d2438;
   height: 100vh;
-  width: 100vw;
   display: flex;
   padding: 20px;
   justify-content: space-around;
@@ -63,8 +62,7 @@ form button{
 }
 .footer-div2,
 .footer-div3{
-    /* background-color: red; */
-    height: 350px;
+        height: 350px;
    }
   .footer-div2 ul,
   .footer-div3 ul{

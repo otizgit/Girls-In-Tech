@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+:root{
+    --header1: #6a35ff;
+    --header2: #2d3958;
+    --paragraph: #7b88a8;
+    --paragraph-size: 1.125rem;
+    --headerSize: 3rem;
+    --anchorLink: 1.6rem;
+}
+h1,h2,h3,h4{
+    font-size: var(--headerSize);
+    }
+    h1,h2{
+        color: var(--header2);
+    }
+h3,h4{
+    color: var(--header1);
+}
+body{
+    background-color: #f8f7fd;
+    /* width: 100vw; */
+    height: 100%;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+.section1, .section3{
+    margin-block: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 .left-side,
+.section3 .left-side{
+       width: 50%;
+}
+.section1 .right-side,
+.section3 .right-side{
+    width: 40%;
+}
+.section1 .right-side img,
+.section3 .right-side img{
+    width: 100%;
+}
+.section2{
+text-align: center;
+margin-block: 100px;
+}
+.section3{
+    margin-block: 60px;
+    position: relative;
+}
+.section3 .left-side a {
+    font-size: 1.5rem;
+    position: relative;
+    text-decoration: none;
+  }
+.section3 .left-side a:after {
+    content: "\00bb";
+    position: absolute;
+    top: -5px;
+    opacity: 0;
+    right: -25px;
+    transition: all 0.6s;
+    font-size: 2rem;
+  }
+  .section3 .left-side a:hover:after {
+    right: -20px;
+    opacity: 1;
+  }
+.wrapper>h1{
+    text-align: center;
+}
