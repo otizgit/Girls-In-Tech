@@ -95,7 +95,25 @@
     font-size: 20px;
     margin: 0 0 10px;
 }
+/* Company Sponsor Section */
+#company-sponsors .container {
+    padding: 0 100px;
+}
 
+.logo-block {
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.logo-block:hover {
+    background-color: white;
+    box-shadow: 1px 1px 57px 0 rgb(123 136 168 / 18%);
+}
 
 /* Consulation call section styling */
 .call-h2 {
