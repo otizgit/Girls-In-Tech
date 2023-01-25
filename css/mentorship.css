@@ -87,3 +87,31 @@ margin-block: 100px;
 .wrapper>h1{
     text-align: center;
 }
+@media(max-width: 922px){
+    .wrapper{
+        width: 90%;
+    }
+    .section1, .section3{
+       flex-direction: column;
+       gap: 70px;
+    }
+    .section1 .left-side,
+.section3 .left-side{
+       width: 90%;
+}
+    .section1 .right-side,
+.section3 .right-side{
+    width: 80%;
+}
+}
+@media(max-width: 768px){
+
+    .section1 .left-side,
+    .section3 .left-side{
+           width: 100%;
+    }
+        .section1 .right-side,
+    .section3 .right-side{
+        width: 100%;
+    }
+}
