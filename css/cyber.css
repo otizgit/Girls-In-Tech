@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+img, svg, video {
+    display: block;
+}
+
+.cyber-main {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgb(3, 8, 65),rgb(162, 44, 175));
+    position: relative;
+}
+
+.cyber-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.cyber-title {
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cyber-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cyber-sub p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: white;
+}
+.cyber-sub p:not(:last-child) {
+    margin-bottom: 20px;
+}
+.cyber-sub p span {
+    color: rgb(106,53,255);
+    font-weight: 600;
+}
+
+.cyber-img img {
+    width: 550px;
+}
+
+.cyber-section {
+    padding: 70px 0 150px;
+}
+
+.cyber-section-container {
+    width: 95%;
+    margin-inline: auto;
+    background-color: rgb(245,247,250);
+    padding: 30px;
+}
+.cyber-section-container:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.cyber-card {
+    background-color: white;
+}
+
+.cyber-card-title {
+    color: rgb(106,53,255);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 25px 15px;
+}
+
+.cyber-card-content {
+    padding: 10px 10px 30px;
+}
+
+.card-content-title {
+    color: rgb(106,53,255);
+    font-weight: 600;
+    font: 14px;
+}
+
+.card-content {
+    margin-bottom: 15px;
+}
+.card-content-sub {
+    font-size: 14px;
+    color: grey;
+}
+
+.start-for-free {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    padding: 15px 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: .3s ease;
+}
+
+.start-for-free:hover {
+    background-color: rgb(46, 44, 44);
+}
+
+@media(max-width: 1210px) {
+    .cyber-content {
+        width: 90%;
+    }
+    .cyber-img img {
+        width: 500px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .cyber-div {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .cyber-content {
+        width: 80%;
+    }   
+    .cyber-img {
+        display: grid;
+        place-items: center;
+    } 
+    .cyber-img img {
+        width: 80%;
+    }
+}
+
+@media(max-width: 1049px){
+    .cyber-main {
+        height: 120vh;
+    }
+    .cyber-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .cyber-sub p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: white;
+    }
+    .cyber-img img {
+        width: 100%;
+    }
+    .cyber-div {
+        gap: 10px;
+    }
+}
