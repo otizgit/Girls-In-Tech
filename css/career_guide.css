@@ -1,0 +1,23 @@
+#hero-section p {
+    font-size: 20px;
+    color: #2d3958;;
+}
+
+#career-guides {
+    padding: 20px 10px;
+}
+
+#career-guides .card {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 100%!important;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
