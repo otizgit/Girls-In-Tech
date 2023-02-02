@@ -3,8 +3,8 @@ $title = 'Home | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/home_body.css">';
 include('includes/header.php');
 
-
-    <!-- Main Page Content Section -->
+?>
+<!-- Main Page Content Section -->
 
     <!-- Top Hero Section -->
     <section id="hero-section" class="hero">
