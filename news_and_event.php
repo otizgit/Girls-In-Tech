@@ -3,9 +3,30 @@ $title = 'News and Event | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/news_and_event.css">';
 include('includes/header.php');
 
+<<<<<<< HEAD:news_and_event.php
 ?>
 
     <!-- Hero section -->
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Logo/Girls in Tech Nigeria Logo Icon.png" sizes="32x32" type="png/jpg">
+    <title>News and Event</title>
+
+    <!-- Link Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/news_and_event.css">
+</head>
+
+<body>
+        <!-- Hero section -->
+>>>>>>> a032d5bcc71c31ed8cfb64f7a591bb8c7846c9fe:news_and_event.html
     <section id="hero-section">
         <div class="container">
             <h2>News & Events</h2>
@@ -153,8 +174,13 @@ include('includes/header.php');
         </div>
         <div class="fixed-background"></div>
     </section>
+<<<<<<< HEAD:news_and_event.php
 
 <?php
 include('includes/footer.php')
 
 ?>
+=======
+</body>
+</html>
+>>>>>>> a032d5bcc71c31ed8cfb64f7a591bb8c7846c9fe:news_and_event.html

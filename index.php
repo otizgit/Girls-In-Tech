@@ -3,8 +3,61 @@ $title = 'Home | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/home_body.css">';
 include('includes/header.php');
 
+<<<<<<< HEAD:index.php
 ?>
 
+=======
+    <!-- Link Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="css/news_and_event.css">
+    <link rel="stylesheet" href="css/home_body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!-- Header section -->
+    <main>
+        <header>
+            <div class="left-nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/Logo/Girls in Tech Nigeria Logo Icon.png" alt="logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="list-items">
+                        <li class="lists"><a href="about.html">About Us</a></li>
+                        <li class="lists"><a href="news_and_event.html">News and Events</a></li>
+                        <li class="lists clickable">
+                            <div class="drop-down">
+                                <p>Members Corner</p>
+                                <span><img src="./images/613d04d8b24c43b3cc84d134_expand_more_black_24dp.svg" alt="drop-down"></span>
+                            </div>
+                            <ul class="drop">
+                                <li><a href="./mentorship.html">Mentorship</a></li>
+                                <li><a href="./cyber.html">Cyber Academy</a></li>
+                                <li><a href="./bootcamp.html">Bootcamp</a></li>
+                                <li><a href="./career.html">Career</a></li>
+                            </ul>
+                        </li>
+                        <li class="lists"><a href="companies.html">Companies</a></li>
+                        <li class="lists"><a href="partners.html">Partners</a></li>
+                        <li class="lists"><a href="">Sponsorship</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-nav">
+                <div class="donate">Donate</div>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </header>
+    </main>
+>>>>>>> a032d5bcc71c31ed8cfb64f7a591bb8c7846c9fe:index.html
     
     <!-- Main Page Content Section -->
 
