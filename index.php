@@ -1,67 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/Logo/Girls in Tech Nigeria Logo Icon.png" sizes="32x32" type="png/jpg">
-    <title>Girls In Tech</title>
+<?php
+$title = 'Home | GirlsInTech';
+$css_file = '<link rel="stylesheet" href="css/home_body.css">';
+include('includes/header.php');
 
-    <!-- Link Bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Link CSS files -->
-    <link rel="stylesheet" href="css/news_and_event.css">
-    <link rel="stylesheet" href="css/home_body.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
+?>
 
-    <!-- Link Font -->
-    <!-- <script defer src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet"> -->
-    
-</head>
-<body>
-    <!-- Header section -->
-    <main>
-        <header>
-            <div class="left-nav">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="./images/Logo/Girls in Tech Nigeria Logo Icon.png" alt="logo">
-                    </a>
-                </div>
-                <nav>
-                    <ul class="list-items">
-                        <li class="lists"><a href="about.html">About Us</a></li>
-                        <li class="lists"><a href="news_and_event.html">News and Events</a></li>
-                        <li class="lists clickable">
-                            <div class="drop-down">
-                                <p>Members Corner</p>
-                                <span><img src="./images/613d04d8b24c43b3cc84d134_expand_more_black_24dp.svg" alt="drop-down"></span>
-                            </div>
-                            <ul class="drop">
-                                <li><a href="./mentorship.html">Mentorship</a></li>
-                                <li><a href="./cyber.html">Cyber Academy</a></li>
-                                <li><a href="./bootcamp.html">Bootcamp</a></li>
-                                <li><a href="./career.html">Career</a></li>
-                            </ul>
-                        </li>
-                        <li class="lists"><a href="companies.html">Companies</a></li>
-                        <li class="lists"><a href="partners.html">Partners</a></li>
-                        <li class="lists"><a href="">Sponsorship</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="right-nav">
-                <div class="donate">Donate</div>
-                <div class="hamburger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </header>
-    </main>
     
     <!-- Main Page Content Section -->
 
@@ -390,49 +333,7 @@
     </section>
 
        
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-div1">
-            <div class="footer-logo">
-                <img src="images/Logo/Girls in Tech Nigeria Logo white.png" alt="Logo">
-            </div>
-            <form action="">
-            <label for="email">Subscribe to our News Letter</label>
-           <div>
-            <p>The latest news, articles, and resources, sent to your inbox weekly.</p>
-            <input type="text" name="email" placeholder="Enter your Email">
-            <button type="submit">Subscribe</button>
-           </div>
-            </form>
+<?php
+include('includes/footer.php')
 
-        </div>
-        <div class="footer-div2">
-                <ul>
-                    <h4>pages</h4>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">News & Events</a></li>
-                    <li><a href="#">Members Center</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="companies.html">Companies</a></li>
-                    <li><a href="#">Sponsorship</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    
-                </ul>
-
-        </div>
-        <div class="footer-div3">
-                <ul>
-                    <h4>Connect with us</h4>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                </ul>
-        </div>
-    </footer>
-
-    <script src="js/header.js"></script>
-</body>
-</html>
+?>

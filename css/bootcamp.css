@@ -10,7 +10,7 @@
   --header2: #2d3958;
   --paragraph: #7b88a8;
   --paragraph-size: 1.125rem;
-  --headerSize: 3rem;
+  --headerSize: 1.5rem;
   --anchorLink: 1.6rem;
 }
 h1,
@@ -115,7 +115,7 @@ span,
   justify-content: space-around;
 }
 
-.parent .div1 .logo {
+.parent .div1 .card-logo {
   border: solid 1px transparent;
   border-radius: 50%;
   background-image: linear-gradient(white, white),
@@ -128,7 +128,7 @@ span,
   display: grid;
   place-items: center;
 }
-.logo img {
+.card-logo img {
   width: 100%;
 }
 .logo2 img {

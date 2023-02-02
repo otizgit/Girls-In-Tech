@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us- Girls In Tech</title>
-    <link rel="icon" href="./images/Logo/Girls in Tech Nigeria Logo Icon.png" sizes="32x32" type="png/jpg">
-    <link rel="stylesheet" href="./css/partners.css">
-    <link rel="stylesheet" href="./css/contact.css">
-    <script defer src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script>
-</head>
-<body>
+<?php
+$title = 'Contact | GirlsInTech';
+$css_file = '<link rel="stylesheet" href="css/contact.css">';
+include('includes/header.php');
+
+?>
     <main>
         <div class="partners-hero contact-hero">
             <div class="partners-hero-content contact-hero-content">
@@ -67,5 +60,8 @@
             </div>
         </div>
     </main>
-</body>
-</html>
+
+<?php
+include('includes/footer.php')
+
+?>

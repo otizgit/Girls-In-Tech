@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Companies</title>
-
-    <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/news_and_event.css">
-    <link rel="stylesheet" href="css/companies.css">
-</head>
-<body>
+<?php
+$title = 'Companies | GirlsInTech';
+$css_file = '<link rel="stylesheet" href="css/companies.css">';
+include('includes/header.php');
+?>
 
     <!-- top hero section -->
     <section id="hero-section">
@@ -161,5 +149,7 @@
         <div class="fixed-background"></div>
     </section>
     
-</body>
-</html>
+<?php
+include('includes/footer.php')
+
+?>

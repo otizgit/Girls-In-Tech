@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mentorship</title>
-    <link rel="stylesheet" href="css/bootcamp.css" />
-  </head>
-  <body>
+<?php
+$title = 'Bootcamp | GirlsInTech';
+$css_file = '<link rel="stylesheet" href="css/bootcamp.css">';
+include('includes/header.php');
+?>
+
     <div class="wrapper">
       <div class="section1">
         <div class="left-side">
@@ -78,7 +74,7 @@
       </div>
       <div class="parent">
         <div class="div1">
-          <div class="logo">
+          <div class="card-logo">
             <img src="images/uiux.svg" alt="UI/UX">
           </div>
           <div class="description">
@@ -98,7 +94,7 @@
           </ul>
         </div>
         <div class="div1">
-          <div class="logo logo2">
+          <div class="card-logo logo2">
             <img src="images/webdev.svg" alt="">
           </div>
           <div class="description">
@@ -120,5 +116,8 @@
         
       </div>
     </div>
-  </body>
-</html>
+
+<?php
+include('includes/footer.php')
+
+?>

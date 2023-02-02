@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <link rel="icon" href="./images/Logo/Girls in Tech Nigeria Logo Icon.png" sizes="32x32" type="png/jpg">
-    <title>Cyber Academy- Girls In Tech</title>
-    <link rel="stylesheet" href="./css/cyber.css">
-</head>
-<body>
+<?php
+$title = 'Cyber | GirlsInTech';
+$css_file = '<link rel="stylesheet" href="css/cyber.css">';
+include('includes/header.php');
+
+?>
     <main class="cyber-main">
         <div class="cyber-content">
             <div class="cyber-title">
@@ -159,5 +154,8 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+
+<?php
+include('includes/footer.php')
+
+?>
