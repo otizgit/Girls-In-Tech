@@ -18,7 +18,7 @@ body {
 
 }
 section {
-  /* margin: 150px auto 0; */
+  margin: 150px auto 0;
   width: 90%;
   display: flex;
   justify-content: space-around;
@@ -57,6 +57,8 @@ section article p{
 article a {
   font-size: 1.5rem;
   position: relative;
+  color: #6a35ff;
+  text-decoration: none;
 }
 article a:after {
   content: "\00bb";
@@ -241,7 +243,6 @@ section aside{
     }
     .goals{
         width: 90%;
-        /* background: blue; */
         text-align: center;
     }
     .body{
