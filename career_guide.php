@@ -1,6 +1,6 @@
 <?php
 $title = 'Career Guide | GirlsInTech';
-$css_file = '<link rel="stylesheet" href="css/career_guide.css">';
+$css_file = '<link rel="stylesheet" href="css/career.css">';
 include('includes/header.php');
 
 ?>
