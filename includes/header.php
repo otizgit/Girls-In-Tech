@@ -51,12 +51,12 @@
                             </div>
                             <ul class="drop">
                                 <li><a href="./mentorship.php">Mentorship</a></li>
-                                <li><a href="./cyber.php">Cyber Academy</a></li>
-                                <li><a href="./bootcamp.php">Bootcamp</a></li>
-                                <li><a href="career_guide.php">Career</a></li>
+                                <!-- <li><a href="./cyber.php">Cyber Academy</a></li> -->
+                                <li><a href="./bootcamp.php">Programs</a></li>
+                                <!-- <li><a href="career_guide.php">Career</a></li> -->
                             </ul>
                         </li>
-                        <li class="lists"><a href="companies.php">Companies</a></li>
+                        <li class="lists"><a href="companies.php">Merch</a></li>
                         <li class="lists"><a href="partners.php">Partners</a></li>
                         <li class="lists"><a href="">Sponsorship</a></li>
                     </ul>

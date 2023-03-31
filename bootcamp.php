@@ -7,15 +7,14 @@ include('includes/header.php');
     <div class="wrapper">
       <div class="section1">
         <div class="left-side">
-          <h1>GIT Bootcamps</h1>
-          <p>
-            Girls in Tech presents "GIT Bootcamps".<br />We are launching our
+          <h1>GirlsInTech Spring Programs 2023</h1>
+          <p>We are launching our
             brand new
             <strong
-              >FREE bootcamps in Frontend Development and UI/UX Design
+              >FREE programs in Frontend Development, UI/UX Design, Basic Computer Appreciation / Microsoft Office and Graphic Design
               bootcamps</strong
-            >which will equip you to go from beginner to industry junior level.
-            With each bootcamp , participates will have the opportunity to
+            > which will equip you to go from beginner to industry junior level.
+            With each bootcamp , participants will have the opportunity to
             interview with / land a junior role with one of our partner
             companies.
           </p>

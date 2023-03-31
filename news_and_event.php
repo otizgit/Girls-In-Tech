@@ -6,15 +6,15 @@ include('includes/header.php');
 ?>
     <section id="hero-section">
         <div class="container">
-            <h2>News & Events</h2>
-            <p>Stay up to date with the latest BGIT News and Events. We always have something <br> going on for our members!</p>
+            <h2>Launching Soon</h2>
+            <p>Stay up to date with the latest GirlsInTech News and Events. We always have something <br> going on for our members!</p>
         </div>
     </section>
 
     <!-- Headline section -->
     <section id="headlines" class="row container-lg-fluid">
         <!-- Top news -->
-        <div class="col-lg-6 p-lg-4">
+        <!-- <div class="col-lg-6 p-lg-4">
             <img src="images/home_body_images/60bd7ca202c127d6fd8f7341_phone-p-500.png" class="bg-dark" alt="">
             <div class="feature-blog-content">
                 <div class="blog-type">Company News</div>
@@ -29,11 +29,11 @@ include('includes/header.php');
                     <div>Karen Emelu</div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- List of other top news -->
         <div class="col-lg-6 p-4 px-2" id="top-news">
             <!-- Top New Card -->
-            <div class="row top-news-card">
+            <!-- <div class="row top-news-card">
                 <div class="col-md-3 col-lg-4">
                     <img src="images/home_body_images/60bd7ca202c127d6fd8f7341_phone-p-500.png" class="bg-dark" alt="">
                 </div>
@@ -41,9 +41,21 @@ include('includes/header.php');
                     <div class="blog-type">Company News</div>
                     <h3>BGIT X Selfridges : In Conversation With</h3>
                 </div>
-            </div>
+            </div> -->
             <!-- Top New Card -->
-            <div class="row top-news-card">
+            <!-- <div class="row top-news-card">
+                <div class="col-md-3 col-lg-4">
+                    <img src="images/home_body_images/60bd7ca202c127d6fd8f7341_phone-p-500.png" class="bg-dark" alt="">
+                </div>
+                <div class="col-8">
+                    <div class="blog-type">Company News</div>
+                    <h3>BGIT X Selfridges : In Conversation With</h3>
+                    <p>Thank you to everyone who attended the Girls in Tech X Women in DevOps' latest networking
+                        initiative to tackle one of today’s biggest taboos: Salary negotiation.lse.</p>
+                </div>
+            </div> -->
+            <!-- Top New Card -->
+            <!-- <div class="row top-news-card">
                 <div class="col-md-3 col-lg-4">
                     <img src="images/home_body_images/60bd7ca202c127d6fd8f7341_phone-p-500.png" class="bg-dark" alt="">
                 </div>
@@ -54,23 +66,11 @@ include('includes/header.php');
                         initiative to tackle one of today’s biggest taboos: Salary negotiation.lse.</p>
                 </div>
             </div>
-            <!-- Top New Card -->
-            <div class="row top-news-card">
-                <div class="col-md-3 col-lg-4">
-                    <img src="images/home_body_images/60bd7ca202c127d6fd8f7341_phone-p-500.png" class="bg-dark" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="blog-type">Company News</div>
-                    <h3>BGIT X Selfridges : In Conversation With</h3>
-                    <p>Thank you to everyone who attended the Girls in Tech X Women in DevOps' latest networking
-                        initiative to tackle one of today’s biggest taboos: Salary negotiation.lse.</p>
-                </div>
-            </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- Latest new section -->
-    <section id="latest-news" class="container-fluid">
+    <!-- <section id="latest-news" class="container-fluid">
         <h2 class="mb-5">Latest News</h2>
         <div class="row">
             <div class="col-md-6 col-lg-4 news-card px-3">
@@ -137,7 +137,7 @@ include('includes/header.php');
                     initiative to tackle one of today’s biggest taboos: Salary negotiation.lse.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- schedule consulation call section -->
     <section id="consultation-call" class="consultation-call mt-5">
@@ -151,13 +151,8 @@ include('includes/header.php');
         </div>
         <div class="fixed-background"></div>
     </section>
-<<<<<<< HEAD:news_and_event.php
 
 <?php
 include('includes/footer.php')
 
 ?>
-=======
-</body>
-</html>
->>>>>>> a032d5bcc71c31ed8cfb64f7a591bb8c7846c9fe:news_and_event.html

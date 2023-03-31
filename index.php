@@ -10,7 +10,7 @@ include('includes/header.php');
     <section id="hero-section" class="hero">
         <div class="container px-0">
                 <h2 class="">Girls in Tech</h2>
-                <p>Girls in Tech was founded with the purpose of becoming a community for <br> black women. It was created to be a safe space where black women can come <br> together, encourage/motivate one another, and help each other on their journey.<br/></p>
+                <p>Girls in Tech is a non-profit organization that is keyed into the development, guidance and mentorship of young girls from the ages of 12 and above. It is a community that welcomes and focuses on the grooming of young girls, it also gives young girls the opportunity to explore the technology space. The organization's main aim is to ensure that girls and women in Nigeria are fully represented in the STEM field and occupations, especially in information technology.<br/></p>
             <div class="button-wrapper"><a href="#" target="_blank" class="button-hero w-button">Join Our Community</a></div>
         </div>
     </section>
@@ -23,61 +23,47 @@ include('includes/header.php');
                     <!-- Col for goals grid -->
                     <div class="w-layout-grid grid-feature">
                         <!-- Goal Card -->
-                        <div class="feature-block"><img src="images/home_body_images/60aff1022bfea43c6895539c_Feature%20Icon%203.svg" alt="" class="feature-icon" />
-                            <h4>Goal One</h4>
-                        </div>
+                        <div class="feature-block"><img src="images/home_body_images/60aff1022bfea43c6895539c_Feature%20Icon%203.svg" alt="" class="feature-icon" /><br>
+                            <h4>Goal One</h4><br>
+                            <p>Giving girls and women ownership and educational opportunities in the technology space because ownership paves thee way for learning opportunities for all girls and women. In line with sustainable development goal four</p>
+                        </div> 
                         <!-- Goal Card -->
                         <div class="feature-block feature-02"><img src="images/home_body_images/60aff1022bfea428ca95539d_Feature%20Icon%202.svg" alt="" class="feature-icon" />
-                            <h4>Goal Two<br/>&amp; Three</h4>
+                            <h4>Goal Two</h4><br>
+                            <p>Preparing girls and women for the future in technology to equalize the gender gap in the tech space thereby taking the SDG goal five into the tech space.</p>
                         </div>
                         <!-- Goal Card -->
                         <div class="feature-block"><img src="images/home_body_images/60aff1022bfea4a17f9553a4_Feature%20Icon%204.svg" alt="" class="feature-icon" />
-                            <h4>Goal Four A &amp; B</h4>
+                            <h4>Goal Three</h4><br>
+                            <p>Advocating for girls and women starts with leadership because making girls and women leaders in technology empower them to reject sustained abuses, subjugation, and forced early marriages.</p>
                         </div>
                         <!-- Goal Card -->
-                        <div class="feature-block feature-02"><img src="images/home_body_images/60aff1022bfea474639553f0_Feature%20Icon%201.svg" alt="" class="feature-icon" />
+                        <!-- <div class="feature-block feature-02"><img src="images/home_body_images/60aff1022bfea474639553f0_Feature%20Icon%201.svg" alt="" class="feature-icon" />
                             <h4>Goal Five A and B</h4>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="bg-element bg-features"></div>
                 </div>
     
                 <!-- Our Goal Text Col -->
-                <div class="col-lg-6 px-0 ps-lg-5 px-lg-2">
+                <!-- <div class="col-lg-6 px-0 ps-lg-5 px-lg-2">
                     <h1 class="content-h1">Our Goals</h1>
                     <p class="paragraph">Our aim is to provide a community, resources, and opportunities to black women in tech and those who want to get into tech. We have a whole team of women dedicated to making this happen.</p>
                     <a href="#" class="link-arrow w-inline-block">
                         <div class="arrow-text">Learn More About Us</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow d-inline-block" />
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- Cisco Cyber Academy section -->
-    <section id="cisco-academy" class="section-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 px-0">
-                    <h1>BGIT X Cisco Cyber Academy</h1>
-                    <p class="margin-bottom-24px">As a member of the BGIT community you can now sign up to any of the available self-paced courses for free and study online and at your own pace. This initiative is part of our continued mission to provide educational resources
-                        to members of the BGIT community worldwide. <br/></p>
-                    <a href="#" class="link-arrow w-inline-block">
-                        <div class="arrow-text">Register for FREE</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
-                </div>
-                <div class="col-lg-6 img px-0 px-lg-5">
-                    <img src="images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414.jpg" loading="lazy" sizes="(max-width: 479px) 88vw, (max-width: 767px) 90vw, (max-width: 991px) 86vw, (max-width: 1439px) 40vw, 432.390625px"
-                        srcset="images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414-p-1080.jpeg 1080w, images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414-p-1600.jpeg 1600w, images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414-p-2000.jpeg 2000w, images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414-p-2600.jpeg 2600w, images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414-p-3200.jpeg 3200w, images/home_body_images/60be0325eae309747513f837_pexels-christina-morillo-1181414.jpg 6016w"
-                        alt="black woman sitting on couch looking at macbook screen." class="shadow-two" />
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <hr>
 
     <!-- BGIT FEST Intro -->
-    <section id="bgit-fest" class="section-white">
+    <!-- <section id="bgit-fest" class="section-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 px-0 px-lg-5 img"><img src="images/home_body_images/6241a193687b35ab7e734ae7_Captured%20by%20Joy-6761.jpg" loading="lazy" sizes="(max-width: 479px) 85vw, (max-width: 767px) 86vw, (max-width: 991px) 84vw, (max-width: 1439px) 43vw, 432.3828125px"
@@ -92,12 +78,12 @@ include('includes/header.php');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <hr>
+    <!-- <hr> -->
 
     <!-- Hiring section -->
-    <section id="hiring-section">
+    <!-- <section id="hiring-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -115,12 +101,12 @@ include('includes/header.php');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <hr>
+    <!-- <hr> -->
 
     <!-- bgit beyond education section -->
-    <section id="bgit-beyond-edu">        
+    <!-- <section id="bgit-beyond-edu">        
         <div class="container">
             <div class="">
                 <div class="row">
@@ -140,9 +126,9 @@ include('includes/header.php');
                 <div class="bg-element bg-content"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <hr>
+    <!-- <hr> -->
 
     <!-- bgit in Nigeria -->
     <section>
@@ -162,7 +148,7 @@ include('includes/header.php');
         </div>
     </section>
 
-    <hr>
+    <!-- <hr> -->
 
     <!-- Mentorship program section -->
     <section>
@@ -183,7 +169,7 @@ include('includes/header.php');
         </div>
     </section>
 
-    <hr>
+    <!-- <hr> -->
 
     <!-- Join our Community intro section -->
     <section>
@@ -205,7 +191,7 @@ include('includes/header.php');
     </section>
 
     <!-- Recruitment Agency Application Section -->
-    <section id="recruitment-section">
+    <!-- <section id="recruitment-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 content-image-wrapper px-0 px-lg-5"><img src="images/home_body_images/613ce420237561c295acf405_Screenshot%202021-09-11%20at%2018.09.34.png" width="415" sizes="(max-width: 479px) 90vw, (max-width: 767px) 77vw, 415px" srcset="images/home_body_images/613ce420237561c295acf405_Screenshot%202021-09-11%20at%2018.09.34-p-500.png 500w, images/home_body_images/613ce420237561c295acf405_Screenshot%202021-09-11%20at%2018.09.34-p-800.png 800w, images/home_body_images/613ce420237561c295acf405_Screenshot%202021-09-11%20at%2018.09.34-p-1080.png 1080w, images/home_body_images/613ce420237561c295acf405_Screenshot%202021-09-11%20at%2018.09.34.png 1420w"
@@ -220,10 +206,10 @@ include('includes/header.php');
                 <div class="bg-element bg-content"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
      <!-- Sponsors section -->
-     <section id="company-sponsors">
+     <!-- <section id="company-sponsors">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
@@ -288,7 +274,7 @@ include('includes/header.php');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Follow Us on Social Media Section -->
     <section class="d-none">
