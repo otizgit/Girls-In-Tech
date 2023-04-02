@@ -189,7 +189,11 @@ section .row {
     outline: 0;
     border: 2px solid black;
     font-size: 15px;
-    border-radius: 3px;
+    border-radius: 7px;
+    color: black;
+}
+.mentorship-form select {
+    padding: 6px;
 }
 
 .mentorship-form button {
@@ -199,8 +203,12 @@ section .row {
     border: 2px solid black;
     font-weight: 800;
     cursor: pointer;
-    color: black;
-    color: var(--header1);
+    background-color: black;
+    color: white;
+    border-radius: 10px;   
+}
+.mentorship-form button:hover {
+    background-color: rgb(31, 31, 31);
 }
 .form-box {
     display: flex;
