@@ -7,13 +7,15 @@ include('includes/header.php');
     <main class="cyber-main">
         <div class="cyber-content">
             <div class="cyber-title">
-                <p>BGIT X Cisco Cyber Academy</p>
+                <p>GirlsInTech X Cisco Cyber Academy</p>
             </div>
             <div class="cyber-div">
                 <div class="cyber-sub">
-                    <p class="cyber-p"><span>Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit. Earum fugiat maxime dolore minima sequi impedit vitae facilis doloremque harum aperiam non eum praesentium, eveniet pariatur <span>libero cum</span> et itaque vel repellendus reprehenderit facere tenetur. Sunt laborum eligendi temporibus reprehenderit cum.</p>
-                    <p class="cyber-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nihil nemo, temporibus itaque reprehenderit laudantium veritatis vel cupiditate labore assumenda fugit id nulla provident, autem obcaecati delectus doloribus dolorum maxime!</p>
+                    <p class="cyber-p"><span>GirlsInTech</span> is partnering with Cisco Cyber Academy to offer girls and women interested in pursuing a career in cybersecurity with access to training and certification courses through Cisco's cybersecurity program. This partnership aims to increase the representation of girls in the cybersecurity industry and promote diversity and inclusivity in the tech industry.
+
+The GirlsInTech X Cisco Cyber Academy program provides women with access to training materials, virtual labs, and hands-on experience in cybersecurity. Participants will also have access to mentorship and networking opportunities with industry professionals.
                 </div>
+                <!-- TODO: Replace this picture with a picture of a girl studying cybersecurity -->
                 <div class="cyber-img"><img src="./images/girlsTech.jpg" alt="girlsTech"></div>
             </div>
         </div>
@@ -28,6 +30,7 @@ include('includes/header.php');
                     <div class="card-content">
                         <p class="card-content-sub">
                             Discover the world of cybersecurity and its impact, as you uncover the most common threats, attacks and vulnerabilities.Today’s interconnected world makes everyone more susceptible to cyber-attacks. Whether you’re attracted to the relatively new world of cybersecurity as a professional, or just interested in protecting yourself online and in social media, this introductory course is the answer. It explores cyber trends, threats—along with the broader topic of cybersecurity in a way that will matter to YOU. For instance, you’ll learn how to protect your personal privacy online while gaining additional insight on the challenges companies, and governmental and educational institutions face today. No prerequisites required.
+                            <!-- TODO: Rephrase ths above paragraph using chatGpt -->
                         </p>
                     </div>
                     <div class="card-content">
@@ -46,9 +49,9 @@ include('includes/header.php');
                         </p>
                     </div>
                     <div class="card-content">
-                        <p class="card-content-title">Length: 30 hours</p>
+                        <p class="card-content-title">Length: 15 hours</p>
                     </div>
-                    <div class="start-for-free">START FOR FREE</div>
+                    <a href='https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity' class="start-for-free">START FOR FREE</a>
                 </div>
             </div>
         </div>
@@ -82,7 +85,7 @@ include('includes/header.php');
                     <div class="card-content">
                         <p class="card-content-title">Length: 30 hours</p>
                     </div>
-                    <div class="start-for-free">START FOR FREE</div>
+                    <a href='https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials' class="start-for-free">START FOR FREE</a>
                 </div>
             </div>
         </div>
@@ -90,33 +93,33 @@ include('includes/header.php');
         <div class="cyber-section-container">
             <div class="cyber-card">
                 <div class="cyber-card-title">
-                    <p>3. Networking Essentials</p>
+                    <p>3. IoT Fundamentals: IoT Security</p>
                 </div> <hr>
                 <div class="cyber-card-content">
                     <div class="card-content">
                         <p class="card-content-sub">
-                            Learn basic networking concepts and skills you can put to use right away, no previous networking knowledge needed.Networking is at the heart of the digital transformation. The network is essential to many business functions today, including business critical data and operations, cybersecurity, and so much more. A wide variety of career paths rely on the network -- so it's important to understand what the network can do, how it operates, and how to protect it.This is a great course for developers, data scientists, cybersecurity specialists, and other professionals looking to broaden their networking domain knowledge. It’s also an excellent launching point for students pursuing a wide range of career pathways – from cybersecurity to software development to business and more. No prerequisites required.
+                        This course teaches vulnerability and risk assessments and recommends risk mitigation strategies for common security threats in IoT systems. Combining your IoT security skills with CyberOps Associate or Network Security courses increases employability. The course also provides cloud computing skills to design, build, and maintain a secure cloud business environment. You'll prepare for the Certificate of Cloud Security Knowledge (CCSK), the industry standard for cloud security expertise. Recommended prerequisites are Introduction to Cybersecurity and Cybersecurity Essentials (or equivalent). 
                         </p>
                     </div>
                     <div class="card-content">
                         <p class="card-content-title">You'll Learn These Core Skills:</p>
                         <p class="card-content-sub">
-                            -Plan and install a home or small business network using wireless technology, then connect it to the Internet.
+                            -Conduct end-to-end security assessments of IoT systems to demonstrate vulnerabilities.
                         </p>
                         <p class="card-content-sub">
-                            -Develop critical thinking and problem-solving skills using Cisco Packet Tracer.
+                            -Gain hands-on experience with IoT prototypes using a Raspberry Pi.
                         </p>
                         <p class="card-content-sub">
-                            -Practice verifying and troubleshooting network and Internet connectivity.
+                            -Recommend threat mitigation measures to minimize the risk in IoT solutions and networks.
                         </p>
                         <p class="card-content-sub">
-                            -Recognize and mitigate security threats to a home network.
+                            -Become proficient using real-world penetration and vulnerability testing tools such as Kali Linux.
                         </p>
                     </div>
                     <div class="card-content">
-                        <p class="card-content-title">Length: 70 hours</p>
+                        <p class="card-content-title">Length: 50 hours</p>
                     </div>
-                    <div class="start-for-free">START FOR FREE</div>
+                    <a href='https://www.netacad.com/courses/cybersecurity/iot-security' class="start-for-free">START FOR FREE</a>
                 </div>
             </div>
         </div>
@@ -146,11 +149,10 @@ include('includes/header.php');
                         </p>
                     </div>
                     <div class="card-content">
-                        <p class="card-content-title">Length: 70 hours</p>
+                        <p class="card-content-title">Length: 35 hours</p>
                     </div>
-                    <div class="start-for-free">START FOR FREE</div>
-                    <a href="">sds</a>
-                </div>
+                    <a href='https://www.netacad.com/courses/cybersecurity/cloud-security' class="start-for-free">START FOR FREE</a>
+                               </div>
             </div>
         </div>
     </section>

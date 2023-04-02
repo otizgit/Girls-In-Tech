@@ -97,22 +97,25 @@ span,
   margin-bottom: 30px;
 }
 .wrapper .parent {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   align-items: center;
-  width: 100%;
-  height: 140vh;
+  justify-content: space-between;
+  grid-gap: 50px;
+  width: 90%;
+  margin: 80px auto;
+
 }
 
 .wrapper .parent .div1 {
-  height: 90%;
-  width: 40%;
   border-radius: 10px;
   background: linear-gradient(145deg, #e1e1e1, #ffffff);
   box-shadow: 33px 33px 38px #ebe8e8, -33px -33px 38px #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-block: 20px;
 }
 
 .parent .div1 .card-logo {
@@ -140,11 +143,11 @@ span,
   line-height: 2;
 }
 .description h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .description h4 {
-  font-size: 22px;
+  font-size: 18px;
 }
 .description p {
   font-size: 14px;
@@ -154,27 +157,15 @@ span,
   font-weight: bolder;
   text-transform: uppercase;
   background-color: var(--header1);
-  width: 55%;
-  height: 44px;
   display: grid;
   place-items: center;
   margin: 20px auto;
   border: none;
   cursor: pointer;
-}
-.wrapper .parent .div1 ul {
-  list-style-type: "\2713";
-  line-height: 2.5;
-  width: 80%;
-  margin: 0 auto;
-  border-top: 1px solid tomato;
-}
-.parent .div1 ul li {
-  font-size: 1rem;
-  color: var(--paragraph);
+  padding: 10px;
 }
 
-@media (max-width: 922px) {
+@media (max-width: 1007px) {
   .section1 {
     flex-direction: column;
     gap: 70px;
@@ -186,32 +177,15 @@ span,
     width: 80%;
   }
 
-  .wrapper .parent .div1 ul {
-    line-height: 3;
-  }
-
   .wrapper .parent {
-    flex-direction: column;
-    height: 100%;
-    padding-block: 100px;
-    gap: 100px;
-  }
-  .wrapper .parent .div1 {
-    height: 100%;
-    width: 70%;
-    padding-block: 30px;
-  }
-}
+      grid-template-columns: repeat(2, 1fr);
+   }
+ }
 @media (max-width: 768px) {
-  .section1 .left-side {
+   .section1 .left-side {
     width: 100%;
   }
-  .wrapper .parent .div1 {
-    height: 100%;
-    width: 80%;
-    padding-block: 30px;
-  }
-  .section2 section {
+   .section2 section {
     width: 80%;
     margin: 50px auto;
     line-height: 2.5;
@@ -220,10 +194,11 @@ span,
     width: 100%;
   }
 }
-@media (max-width: 568px) {
-
-    .wrapper .parent .div1 {
-          width: 85%;
-        
-      }
+@media (max-width: 665px) {
+     .wrapper .parent {
+    grid-template-columns: 1fr;
+    width: 60%;
+ }
 }
+
+

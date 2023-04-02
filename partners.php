@@ -37,21 +37,20 @@ include('includes/header.php');
                 <img src="./images/partners/accuRx.png" alt="">
             </div>
         </div>
-
-        <!-- Consultation Call Section -->
-        <div class="sub-footer">
-            <div class="consultation">
-                <div class="consultation-text">
-                    <p>Need Advice?</p>
-                    <p>Why not schedule a consultation <br> call.</p>
-                </div>
-                <div class="consultation-btn">
-                    <a href="./contact.html">
-                        <button>Schedule Consultation</button>
-                    </a>
+        
+    <!-- Consultation Call Section -->
+    <section class="consultation-call">
+        <div class="container">
+            <div class="cta-banner">
+                <div class="cta-container">
+                    <h2 class="cta-h2"><span class="text-span">Need Advice?<br/></span>Why not schedule a consultation call.</h2>
+                    <div class="cta-button-wrap"><a href="#" class="button-start w-button">Schedule Consultation</a></div>
                 </div>
             </div>
         </div>
+        <div class="fixed-background"></div>
+    </section>
+
     </main>
 
     

@@ -98,7 +98,7 @@ img, svg, video {
     margin-bottom: 15px;
 }
 .card-content-sub {
-    font-size: 14px;
+    font-size: 200px !;
     color: grey;
 }
 

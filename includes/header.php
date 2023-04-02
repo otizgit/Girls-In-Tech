@@ -42,6 +42,7 @@
                 </div>
                 <nav>
                     <ul class="list-items">
+                        <li class="lists"><a href="index.php">Home</a></li>
                         <li class="lists"><a href="about.php">About Us</a></li>
                         <li class="lists"><a href="news_and_event.php">News and Events</a></li>
                         <li class="lists clickable">
@@ -51,14 +52,14 @@
                             </div>
                             <ul class="drop">
                                 <li><a href="./mentorship.php">Mentorship</a></li>
-                                <!-- <li><a href="./cyber.php">Cyber Academy</a></li> -->
-                                <li><a href="./bootcamp.php">Programs</a></li>
+                                <li><a href="./cyber.php">Cyber Academy</a></li>
+                                <li><a href="./programs.php">Programs</a></li>
                                 <!-- <li><a href="career_guide.php">Career</a></li> -->
                             </ul>
                         </li>
                         <li class="lists"><a href="companies.php">Merch</a></li>
-                        <li class="lists"><a href="partners.php">Partners</a></li>
-                        <li class="lists"><a href="">Sponsorship</a></li>
+                        <!-- <li class="lists"><a href="partners.php">Partners</a></li> -->
+                        <li class="lists"><a href="./sponsorship.php">Sponsorship</a></li>
                     </ul>
                 </nav>
             </div>

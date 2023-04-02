@@ -138,11 +138,11 @@ include('includes/header.php');
                         srcset="images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-500.png 500w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-800.png 800w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-1080.png 1080w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51.png 1274w"
                         alt="" class="shadow-two-3" /></div>
                 <div class="col-lg-6 px-0">
-                    <h1 class="heading-33">Girls in Tech: Nigeria </h1>
-                    <p class="margin-bottom-24px-3">Meet our Girls in Tech : Nigeria team who are dedicated to carry out our mission of making technology more accessible to black women in Nigeria by providing resources , education and opportunities. We hosted over 250 young
+                    <h1 class="heading-33">GirlsInTech: Mission</h1>
+                    <p class="margin-bottom-24px-3">We are dedicated to carry out our mission of making technology more accessible to black women in Nigeria by providing resources , education and opportunities. We hosted over 250 young
                         women in our &quot;Tap Into Tech&quot; Conference in lagos, Nigeria in August.</p>
-                    <a href="#" target="_blank" class="link-arrow w-inline-block">
-                        <div class="arrow-text">Check This Out</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
+                    <!-- <a href="#" target="_blank" class="link-arrow w-inline-block">
+                        <div class="arrow-text">Check This Out</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a> -->
                 </div>
             </div>
         </div>
@@ -156,9 +156,10 @@ include('includes/header.php');
             <div class="row ">
                 <div class="col-lg-6 px-0 px-lg-5">
                     <h1 class="heading-34">Our Mentorship Programme</h1>
-                    <p class="margin-bottom-24px-3">The Girls in Tech Mentoring Program is intended to associate black women at all phases of their journey with a mentor, offering encouragement and direction, to help mentees understand their untapped capacity and accomplish
+                    <!--TODO: Rephrase this -->
+                    <p class="margin-bottom-24px-3">GirlsInTech Mentoring Program is intended to associate girls and women at all phases of their journey with a mentor, offering encouragement and direction, to help mentees understand their untapped capacity and accomplish
                         individual and expert objectives. Overall, our goal is to support them in manoeuvring within their field.<br/><br/>Mentees will be matched with mentors dependent on various factors including, area, industry, and skills these
-                        will be discovered during the process of enrolment.<br/><br/>Mentor applications are now OPEN. Mentee applications will open in January 2023</p>
+                        will be discovered during the process of enrolment.<br/><br/>Applications for Mentors and Mentees are now Open</p>
                     <a href="/mentor" class="link-arrow w-inline-block">
                         <div class="arrow-text">Apply Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
                 </div>
@@ -177,7 +178,9 @@ include('includes/header.php');
             <div class="row">
                 <div class="col-lg-6 px-0">
                     <h1 class="content-h1">Join Our Community.</h1>
-                    <p class="paragraph">Our aim is to provide a community, resources, and opportunities for black women in tech and those that want to get into tech.<br/><br/>Resources &amp; Opportunities -  Take a look at our wonderful resources and opportunities available.<br/><br/>Get
+                    <p class="paragraph">Our aim is to provide a community, resources, and opportunities for girls and women that want to get into tech.<br/>
+                    <!-- <br/>Resources &amp; Opportunities -  Take a look at our wonderful resources and opportunities available.<br/> -->
+                    <br/>Get
                         into Tech -  If you’re looking to get into tech? Let us help you get started on your exciting journey. Feel free to contact us and one of our team members will get back to you.</p>
                     <a href="/sign-up" class="link-arrow w-inline-block">
                         <div class="arrow-text">Sign Up Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
