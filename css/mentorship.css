@@ -30,6 +30,7 @@ p{
 body{
     background-color: #f8f7fd;
     height: 100%;
+    position: relative;
 }
 .wrapper{
     width: 80%;
@@ -65,28 +66,106 @@ margin-block: 100px;
     margin-block: 60px;
     position: relative;
 }
-.section3 .left-side a {
+.section3 .left-side .apply {
     font-size: 1.5rem;
     position: relative;
-    text-decoration: none;
-    line-height: 2.5;
+    display: inline-block;
+    cursor: pointer;
   }
-.section3 .left-side a:after {
+.section3 .left-side .apply:after {
     content: "\00bb";
     position: absolute;
-    top: -23px;
     opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
     right: -25px;
     transition: all 0.6s;
     font-size: 2rem;
   }
-  .section3 .left-side a:hover:after {
+  .section3 .left-side .apply:hover:after {
     right: -20px;
     opacity: 1;
   }
 .wrapper>h1{
     text-align: center;
 }
+
+.mentorship-form {
+    inset: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.822);
+    z-index: 5900;
+    display: grid;
+    place-items: center;
+    transform: scale(0);
+    transition: .3s ease;
+}
+.show-form {
+    transform: scale(1);
+}
+
+.mentorship-form form {
+    background-color: white;
+    width: min(45%, 1200px);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mentorship-form .input {
+    position: relative;
+}
+
+.mentorship-form input,
+.mentorship-form select {
+    width: 100%;
+    outline: 0;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.mentorship-form button {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+    color: var(--header1);
+}
+.form-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.form-box div {
+    flex: 1;
+}
+
+.form-box,
+.form-content {
+    margin-bottom: 15px;
+}
+
+.form-add,
+.form-courses {
+    display: none;
+}
+.show-form-add {
+    display: block;
+}
+.show-courses {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .mentorship-form form {
+        width: 90%;
+    }
+}
+
 @media(max-width: 922px){
     .wrapper{
         width: 90%;
