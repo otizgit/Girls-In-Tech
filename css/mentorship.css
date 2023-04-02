@@ -122,8 +122,13 @@ margin-block: 100px;
     outline: 0;
     border: 2px solid black;
     font-size: 15px;
-    border-radius: 3px;
+    color: black;
+    border-radius: 7px;
 }
+.mentorship-form select {
+    padding: 6px;
+}
+
 
 .mentorship-form button {
     width: 100%;
@@ -132,8 +137,12 @@ margin-block: 100px;
     border: 2px solid black;
     font-weight: 800;
     cursor: pointer;
-    color: black;
-    color: var(--header1);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.mentorship-form button:hover {
+    background-color: rgb(31, 31, 31);
 }
 .form-box {
     display: flex;
