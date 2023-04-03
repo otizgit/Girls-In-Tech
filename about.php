@@ -75,13 +75,8 @@ include('includes/header.php');
             <img src="images/Team-members/edit (8).jpg" alt="Ms Amarachi" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3 mt-2">Amarachi Amazone</h5>
-                <p>Photographer</p>
-                <p class="text-muted px-3 d-none">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
-                </p>
+                    <h5 class="mb-3 mt-2">Amarachi Amazone</h5>
+                    <p>Photographer</p>
                 </div>
             </div>
         </div>
@@ -89,27 +84,17 @@ include('includes/header.php');
         <img src="images/Team-members/ada.jpg" alt="Ms Ada" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3 mt-2">Ada Doe</h5>
-                <p>Web Developer</p>
-                <p class="text-muted px-3 d-none">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis.
-                </p>
+                    <h5 class="mb-3 mt-2">Ada Doe</h5>
+                    <p>Web Developer</p>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-        <img src="images/Team-members/odera.jpg" alt="Ms Odera" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
+        <img src="images\Team-members\odera..jpg" alt="Ms Odera" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3">Odera Deynah</h5>
-                <p>UX Designer</p>
-                <p class="text-muted px-3">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
-                </p>
+                    <h5 class="mb-3">Odera Deynah</h5>
+                    <p>UX Designer</p>
                 </div>
             </div>
         </div>
