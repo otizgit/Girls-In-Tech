@@ -4,6 +4,23 @@ $css_file = '<link rel="stylesheet" href="css/about.css">';
 include('includes/header.php');
 ?>
 
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+
 <section class="first-section">
 <article>
     <h1>What is Girls In Tech?</h1>
@@ -50,44 +67,78 @@ include('includes/header.php');
 <div class="team-section">
     <h1>Meet the Team</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, illo?</p>
-    <div class="founders">
-        <div>
-            <img src="images/headshot.jpg" alt="founder">
-            <h4 class="founder-name">Lorem Title</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div>
-            <img src="images/headshot.jpg" alt="founder">
-            <h4 class="founder-name">Lorem Title</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div>
-            <img src="images/headshot.jpg" alt="founder">
-            <h4 class="founder-name">Lorem Title</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div>
-            <img src="images/headshot.jpg" alt="founder">
-            <h4 class="founder-name">Lorem Title</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-    </div>
-</div>
-</div>
 
- <!-- Consultation Call Section -->
- <section class="consultation-call">
-    <div class="container">
-        <div class="cta-banner">
-            <div class="cta-container">
-                <h2 class="cta-h2"><span class="text-span">Need Advice?<br/></span>Why not schedule a consultation call.</h2>
-                <div class="cta-button-wrap"><a href="#" class="button-start w-button">Schedule Consultation</a></div>
+    <!-- Carousel wrapper -->
+    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark mb-2" data-mdb-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Team-members/edit (8).jpg" alt="Ms Amarachi" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                <h5 class="mb-3 mt-2">Amarachi Amazone</h5>
+                <p>Photographer</p>
+                <p class="text-muted px-3 d-none">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/Team-members/ada.jpg" alt="Ms Ada" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                <h5 class="mb-3 mt-2">Ada Doe</h5>
+                <p>Web Developer</p>
+                <p class="text-muted px-3 d-none">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/Team-members/odera.jpg" alt="Ms Odera" style="width: 200px; height=150px; object-fit:contain; border-radius:50rem; margin: 10px auto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                <h5 class="mb-3">Odera Deynah</h5>
+                <p>UX Designer</p>
+                <p class="text-muted px-3">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
+                </p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="fixed-background"></div>
-</section>
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!-- Carousel wrapper -->
 
+</div>
+</div>
+
+
+   <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+<!-- MDB -->
+<script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
 <?php
 include('includes/footer.php')
 
