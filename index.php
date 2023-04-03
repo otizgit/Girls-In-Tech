@@ -1,6 +1,7 @@
 <?php
 $title = 'Home | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/home_body.css">';
+echo '<script defer src="./js/home.js"></script>';
 include('includes/header.php');
 
 ?>
@@ -27,7 +28,7 @@ include('includes/header.php');
         <div class="container px-0">
                 <h2 class="">Girls in Tech</h2>
                 <p>Girls in Tech is a non-profit organization that is keyed into the development, guidance and mentorship of young girls from the ages of 12 and above. It is a community that welcomes and focuses on the grooming of young girls, it also gives young girls the opportunity to explore the technology space. The organization's main aim is to ensure that girls and women in Nigeria are fully represented in the STEM field and occupations, especially in information technology.<br/></p>
-            <div class="button-wrapper"><a href="#" target="_blank" class="button-hero w-button">Join Our Community</a></div>
+            <div class="button-wrapper mentee"><p class="button-hero w-button">Join Our Community</ptarget=></div>
         </div>
     </section>
 
@@ -176,7 +177,7 @@ include('includes/header.php');
                     <p class="margin-bottom-24px-3">GirlsInTech Mentoring Program is intended to associate girls and women at all phases of their journey with a mentor, offering encouragement and direction, to help mentees understand their untapped capacity and accomplish
                         individual and expert objectives. Overall, our goal is to support them in manoeuvring within their field.<br/><br/>Mentees will be matched with mentors dependent on various factors including, area, industry, and skills these
                         will be discovered during the process of enrolment.<br/><br/>Applications for Mentors and Mentees are now Open</p>
-                    <a href="/mentor" class="link-arrow w-inline-block">
+                    <a href="./mentorship.php" class="link-arrow w-inline-block">
                         <div class="arrow-text">Apply Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
                 </div>
                 <div class="col-lg-6 content-image-wrapper px-0 px-lg-5">
@@ -198,8 +199,8 @@ include('includes/header.php');
                     <!-- <br/>Resources &amp; Opportunities -  Take a look at our wonderful resources and opportunities available.<br/> -->
                     <br/>Get
                         into Tech -  If you’re looking to get into tech? Let us help you get started on your exciting journey. Feel free to contact us and one of our team members will get back to you.</p>
-                    <a href="/sign-up" class="link-arrow w-inline-block">
-                        <div class="arrow-text">Sign Up Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
+                    <a class="link-arrow w-inline-block mentee">
+                        <div class="arrow-text">Sign Up Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></p>
                 </div>
                 <div class="col-lg-6 px-0 px-lg-5  content-image-wrapper"><img src="images/home_body_images/60bd77b8d2ea403eaf5faad7_map.png" sizes="(max-width: 479px) 92vw, (max-width: 767px) 84vw, (max-width: 991px) 88vw, (max-width: 1439px) 97vw, 1160px" srcset="images/home_body_images/60bd77b8d2ea403eaf5faad7_map-p-500.png 500w, images/home_body_images/60bd77b8d2ea403eaf5faad7_map-p-800.png 800w, images/home_body_images/60bd77b8d2ea403eaf5faad7_map-p-1080.png 1080w, images/home_body_images/60bd77b8d2ea403eaf5faad7_map-p-1600.png 1600w, images/home_body_images/60bd77b8d2ea403eaf5faad7_map.png 1832w"
                         alt="" class="content-image analytics" />
@@ -404,6 +405,55 @@ include('includes/header.php');
     <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+=======
+    <div class="mentorship-form">
+            <form action="">
+                <div class="form-box">
+                    <input type="text" id="firstname" required placeholder= "First Name">
+                    <input type="text" id="number" required placeholder= "Last Name">
+                </div>
+                <div class="form-content form-courses">
+                    <label for="courses">Courses You Are Registering For:</label>
+                    <select id="courses" required></select>
+                </div>
+                <div class="form-box">
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="form-box">
+                    <input type="number" placeholder="Phone Number" required>
+                    <input type="number" placeholder="Postal Code" required>
+                </div>
+                <div class="form-box">
+                    <div>
+                        <label for="country">Country</label>
+                        <select id="country" required>
+                            <option value="nigeria">Nigeria</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <select id="city" required></select>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <label for="refer">Refer Type:</label>
+                    <select class="socials" id="refer" required>
+                        <option value="facebook">Facebook</option>
+                        <option value="personal">Personal</option>
+                        <option value="whatsapp">Whatsapp</option>
+                    </select>
+                </div>
+                <div class="form-content form-add">
+                    <label for="refer">Name of referer:</label>
+                    <input type="text" required>
+                </div>
+
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
+            </form>
+        </div>
+
+      
 <?php
 include('includes/footer.php')
 
