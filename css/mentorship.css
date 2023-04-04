@@ -71,6 +71,10 @@ margin-block: 100px;
     position: relative;
     display: inline-block;
     cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    color: #6a35ff;
+    text-decoration: none;
   }
 .section3 .left-side .apply:after {
     content: "\00bb";

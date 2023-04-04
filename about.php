@@ -28,7 +28,7 @@ include('includes/header.php');
     <a href="#">Sign Up </a>
 </article>
 <aside>
-    <img src="images/girlsTech.jpg" alt="Girls In Tech">
+    <img src="images/girls-tech1.jpg" alt="Girls In Tech">
     </aside>
 </section>    
 <section class="second-section">

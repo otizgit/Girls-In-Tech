@@ -150,14 +150,13 @@ include('includes/header.php');
     <!-- bgit in Nigeria -->
     <section>
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-6 content-image-wrapper px-0 px-lg-5"><img src="images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51.png" loading="lazy" sizes="(max-width: 479px) 85vw, (max-width: 767px) 86vw, (max-width: 991px) 84vw, (max-width: 1439px) 43vw, 432.390625px"
                         srcset="images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-500.png 500w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-800.png 800w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51-p-1080.png 1080w, images/home_body_images/6339e826b5d7fa6a4ae83d2e_Screenshot%202022-10-02%20at%2020.31.51.png 1274w"
-                        alt="" class="shadow-two-3" /></div>
-                <div class="col-lg-6 px-0">
+                        alt="" class="shadow-two-3" /></div> -->
+                <div class="col-lg-6 px-0 mx-auto">
                     <h1 class="heading-33">GirlsInTech: Mission</h1>
-                    <p class="margin-bottom-24px-3">We are dedicated to carry out our mission of making technology more accessible to black women in Nigeria by providing resources , education and opportunities. We hosted over 250 young
-                        women in our &quot;Tap Into Tech&quot; Conference in lagos, Nigeria in August.</p>
+                    <p class="margin-bottom-24px-3">At our core, we are dedicated to making technology more accessible to black women in Nigeria. Through our efforts, we provide a wealth of resources, education, and opportunities to empower women in technology. Our goal is to create a supportive environment that allows women to learn, grow, and achieve their goals. We remain committed to promoting diversity and inclusivity in the tech industry, and will continue to work towards our mission.</p>
                     <!-- <a href="#" target="_blank" class="link-arrow w-inline-block">
                         <div class="arrow-text">Check This Out</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a> -->
                 </div>
@@ -172,11 +171,8 @@ include('includes/header.php');
         <div class="container">
             <div class="row ">
                 <div class="col-lg-6 px-0 px-lg-5">
-                    <h1 class="heading-34">Our Mentorship Programme</h1>
-                    <!--TODO: Rephrase this -->
-                    <p class="margin-bottom-24px-3">GirlsInTech Mentoring Program is intended to associate girls and women at all phases of their journey with a mentor, offering encouragement and direction, to help mentees understand their untapped capacity and accomplish
-                        individual and expert objectives. Overall, our goal is to support them in manoeuvring within their field.<br/><br/>Mentees will be matched with mentors dependent on various factors including, area, industry, and skills these
-                        will be discovered during the process of enrolment.<br/><br/>Applications for Mentors and Mentees are now Open</p>
+                <h1 class="heading-33">GirlsInTech: Mentorship</h1>
+                    <p class="margin-bottom-24px-3">The GirlsInTech Mentoring Program aims to pair girls and women with mentors at all stages of their journey to provide guidance and motivation, helping mentees to unlock their potential and achieve personal and professional goals. Our objective is to assist mentees in navigating their fields successfully. During the enrollment process, mentees will be matched with mentors based on factors such as location, industry, and skills.<br/><br/>Applications for Mentors and Mentees are now Open</p>
                     <a href="./mentorship.php" class="link-arrow w-inline-block">
                         <div class="arrow-text">Apply Now</div><img src="images/home_body_images/60aff1022bfea4af0f955349_arow.svg" alt="" class="arrow" /></a>
                 </div>

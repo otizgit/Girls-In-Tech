@@ -25,36 +25,36 @@ echo '<script defer src="./js/mentorship.js"></script>';
     <div class="wrapper">
         <div class="section1">
             <div class="left-side">
-                <h1>GIT Mentorship Programme</h1>
+                <h1>GirlsInTech Mentorship Programme</h1>
                 <p>Are you a girl in tech? <br><strong>We are excited to launch a mentorsip programme for you</strong></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam temporibus laboriosam earum unde. Aliquid tenetur aut deleniti architecto impedit, omnis quia atque temporibus voluptas voluptatibus quis ipsum, doloribus debitis, qui facere voluptatum? Consectetur tempora nulla dolore corrupti, adipisci dicta quod quisquam ad ipsum similique ex modi, molestiae iste, fuga eveniet?</p>
+                <p>GirlsInTech mentorship program is a valuable initiative designed to provide guidance and support to young girls and women interested in pursuing careers in the technology industry. The program is geared towards young girls from the ages of 12 and above with a passion for technology and provides one-on-one mentoring from experienced professionals in the field. In addition to mentoring, GirlsInTech offers workshops and training sessions on technical skills such as coding, UI/UX design, and cybersecurity. The program aims to break down gender barriers in tech by providing role models and supportive peers. By participating in the program, young women can build a network of mentors and peers that can provide ongoing guidance and support throughout their careers. </p>
             </div>
             <div class="right-side">
-                <img src="images/woman1.jpg" alt="Mentorship-Girl">
+                <img src="images/mentorship.jpg" alt="Mentorship-Girl">
             </div>
         </div>
         <div class="section2">
             <h2>What does the programme entail</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempore aspernatur enim suscipit voluptate sapiente. Harum nostrum accusantium cupiditate id?</p>
+           <p>The GirlsInTech program provides one-on-one mentoring from experienced professionals, technical skill workshops, and a supportive community to young women interested in pursuing technology careers.</p>
         </div>
         <h3>Become a GIT Mentor</h3>
         <div class="section3">
             <div class="left-side">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab voluptas alias repudiandae illo voluptates tempore nulla quidem error, illum, ratione minima. Quia obcaecati provident beatae aut laboriosam harum debitis, atque iusto nostrum! Deserunt corrupti autem cum nemo maxime non neque quae, beatae fuga ut. At minus nihil odio facere! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias mollitia ducimus aliquid blanditiis, harum assumenda corrupti? Earum autem reprehenderit sit sapiente laboriosam quo eos dolor officia quia nostrum nam iusto odit dignissimos velit consequatur quas dicta quae exercitationem, veritatis assumenda laborum atque et distinctio ea! Assumenda modi fuga illum eum.</p>
+                <p>Becoming a mentor for GirlsInTech is a rewarding opportunity to help inspire and guide young women interested in pursuing careers in the technology industry, while also contributing to the growth and diversity of the field. Mentors provide one-on-one guidance and support, share their experiences and knowledge, and serve as role models for the next generation of female leaders in tech.</p>
                 <p class="apply mentor">Apply Now</p>
             </div>
             <div class="right-side">
-                <img src="images/woman2.jpg" alt="Become a Mentor">
+                <img src="images/girls-tech6.jpg" alt="Become a Mentor">
             </div>
         </div>
         <h4>Become a GIT Mentee</h4>
         <div class="section3">
             <div class="left-side">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab voluptas alias repudiandae illo voluptates tempore nulla quidem error, illum, ratione minima. Quia obcaecati provident beatae aut laboriosam harum debitis, atque iusto nostrum! Deserunt corrupti autem cum nemo maxime non neque quae, beatae fuga ut. At minus nihil odio facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus sit at quam asperiores et optio, quae excepturi similique quos ipsum expedita labore ut? Similique quos debitis corporis, mollitia corrupti amet provident dicta nulla sequi quia perspiciatis eveniet ad atque accusamus est eligendi consequuntur voluptatibus quibusdam dolor magni officia modi.</p>
+                <p>Becoming a mentee through the GirlsInTech program provides an invaluable opportunity for young women interested in technology careers to gain guidance and support from experienced professionals in the field, build their technical skills, and develop a strong network of peers and mentors. Mentees can learn from their mentors' experiences, gain insights into the industry, and work towards achieving their career goals with confidence and direction.</p>
                 <p class="apply mentee">Apply Now</p>
             </div>
             <div class="right-side">
-                <img src="images/woman2.jpg" alt="Become a Mentor">
+                <img src="images/girls-tech3.jpg" alt="Become a Mentor">
             </div>
         </div>
 
