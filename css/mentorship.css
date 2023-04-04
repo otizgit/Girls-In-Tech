@@ -110,6 +110,16 @@ margin-block: 100px;
     color: black;
     padding: 20px;
     border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
 
 .mentorship-form .input {

@@ -408,6 +408,7 @@ include('includes/header.php');
 
     <div class="mentorship-form">
             <form action="">
+                <div class="close-btn">&#10060;</div>
                 <div class="form-box">
                     <input type="text" id="firstname" required placeholder= "First Name">
                     <input type="text" id="number" required placeholder= "Last Name">

@@ -1,6 +1,7 @@
 <?php
 $title = 'Bootcamp | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/programs.css">';
+echo '<script defer src="./js/home.js"></script>';
 include('includes/header.php'); ?>
 
 <div class="wrapper">
@@ -85,7 +86,7 @@ include('includes/header.php'); ?>
         <p>Starting on</p>
         <h4 class="fw-semibold">14th April 2023</h4>
         <p>Duration : 12 Weeks</p>
-        <button>Register Here</button>
+        <button class="mentee">Register Here</button>
       </div>
       </div>
     <div class="div1">
@@ -97,7 +98,7 @@ include('includes/header.php'); ?>
         <p>Starting on</p>
         <h4 class="fw-semibold">14th April 2023</h4>
         <p>Duration : 24 Weeks</p>
-        <button>Regiser Here</button>
+        <button class="mentee">Regiser Here</button>
       </div>
     </div>
     <div class="div1">
@@ -109,7 +110,7 @@ include('includes/header.php'); ?>
         <p>Starting on</p>
         <h4 class="fw-semibold">14th April 2023</h4>
         <p>Duration : 24 Weeks</p>
-        <button>Regiser Here</button>
+        <button class="mentee">Regiser Here</button>
       </div>
     </div>
     <div class="div1">
@@ -121,10 +122,59 @@ include('includes/header.php'); ?>
         <p>Starting on</p>
         <h4 class="fw-semibold">14th April 2023</h4>
         <p>Duration : 24 Weeks</p>
-        <button>Regiser Here</button>
+        <button class="mentee">Regiser Here</button>
       </div>
     </div>
   </div>
+
+
+  <div class="mentorship-form">
+            <form action="">
+                <div class="close-btn">&#10060;</div>
+                <div class="form-box">
+                    <input type="text" id="firstname" required placeholder= "First Name">
+                    <input type="text" id="number" required placeholder= "Last Name">
+                </div>
+                <div class="form-content form-courses">
+                    <label for="courses">Courses You Are Registering For:</label>
+                    <select id="courses" required></select>
+                </div>
+                <div class="form-box">
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="form-box">
+                    <input type="number" placeholder="Phone Number" required>
+                    <input type="number" placeholder="Postal Code" required>
+                </div>
+                <div class="form-box">
+                    <div>
+                        <label for="country">Country</label>
+                        <select id="country" required>
+                            <option value="nigeria">Nigeria</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <select id="city" required></select>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <label for="refer">Refer Type:</label>
+                    <select class="socials" id="refer" required>
+                        <option value="facebook">Facebook</option>
+                        <option value="personal">Personal</option>
+                        <option value="whatsapp">Whatsapp</option>
+                    </select>
+                </div>
+                <div class="form-content form-add">
+                    <label for="refer">Name of referer:</label>
+                    <input type="text" required>
+                </div>
+
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
+            </form>
+        </div>
 </div>
 
 <?php

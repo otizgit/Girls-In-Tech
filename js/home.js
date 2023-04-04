@@ -3,9 +3,14 @@ const mentee = document.querySelectorAll(".mentee");
 const popUp = document.querySelector(".form-add");
 const courses = document.querySelector(".form-courses");
 const socials = document.querySelector(".socials");
+const closeBtn = document.querySelector(".close-btn")
 
 function showMentorshipForm() {
   mentorshipForm.classList.add("show-form");
+}
+
+function hideMentorshipForm() {
+  mentorshipForm.classList.remove("show-form")
 }
 
 mentee.forEach (menteeBtn => {
@@ -15,9 +20,11 @@ mentee.forEach (menteeBtn => {
     });
 })
 
+closeBtn.addEventListener("click", hideMentorshipForm)
+
 mentorshipForm.addEventListener("click", (e) => {
   if (e.target === mentorshipForm) {
-    mentorshipForm.classList.remove("show-form");
+    hideMentorshipForm()
   }
 });
 
