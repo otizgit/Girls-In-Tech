@@ -62,62 +62,62 @@ include('includes/header.php');
         <div class="carousel-item active">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3">Maria Kate</h5>
-                <p>Photographer</p>
+                <h5 class="mb-3">Funke Opeke</h5>
+                <p> Founder and CEO of MainOne</p>
                 <p class="text-muted px-3">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
+                    Technology can bridge the gap in healthcare, education, and economic development in Africa.
+                    <i class="fas fa-quote-right pe-2"></i>
                 </p>
                 </div>
             </div>
-            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <!-- <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="far fa-star fa-sm"></i></li>
-            </ul>
+            </ul> -->
         </div>
         <div class="carousel-item">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3">John Doe</h5>
-                <p>Web Developer</p>
+                <h5 class="mb-3">Dr. Naledi Pandor</h5>
+                <p> South African Minister of Higher Education and Training</p>
                 <p class="text-muted px-3">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis.
+                    Africa needs to invest in digital infrastructure and the skills of its people to take advantage of the fourth industrial revolution.
+                    <i class="fas fa-quote-right pe-2"></i>
                 </p>
                 </div>
             </div>
-            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <!-- <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="far fa-star fa-sm"></i></li>
-            </ul>
+            </ul> -->
         </div>
         <div class="carousel-item">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                <h5 class="mb-3">Anna Deynah</h5>
-                <p>UX Designer</p>
+                <h5 class="mb-3">Baratang Miya</h5>
+                <p>South African social entrepreneur and founder of Girlhype Coders</p>
                 <p class="text-muted px-3">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia.
+                    Innovation is about creating solutions that are accessible, affordable, and sustainable for everyone, not just a privileged few.
+                    <i class="fas fa-quote-right pe-2"></i>
                 </p>
                 </div>
             </div>
-            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+            <!-- <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="fas fa-star fa-sm"></i></li>
                 <li><i class="far fa-star fa-sm"></i></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
@@ -131,8 +131,7 @@ include('includes/header.php');
         <span class="visually-hidden">Next</span>
     </button>
     </div>
-    <!-- Carousel wrapper -->
-
+    <!-- Carousel Wallpaper -->
    <!-- MDB -->
     <script
     type="text/javascript"
