@@ -17,13 +17,13 @@
         <div class="footer-div2">
                 <ul>
                     <h4>pages</h4>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">News & Events</a></li>
-                    <li><a href="#">Members Center</a></li>
-                    <li><a href="career_guide.php">Career</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="companies.html">Companies</a></li>
-                    <li><a href="#">Sponsorship</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="news_and_event.php">News & Events</a></li>
+                    <!-- <li><a href="#">Members Center</a></li> -->
+                    <li><a href="programs.php">Programs</a></li>
+                    <!-- <li><a href="#">Partners</a></li> -->
+                    <!-- <li><a href="companies.html">Companies</a></li> -->
+                    <li><a href="sponsorship.php">Sponsorship</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Sign Up</a></li>
