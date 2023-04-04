@@ -93,18 +93,21 @@ form button{
    @media(max-width: 922px){
     footer{
         flex-direction:column;
-        height: 100%;
+        height: 240vh;
+    }
+    .footer-div1 form {
+      height: 50%;
     }
     .footer-div1 form {
         align-items: center;
-        height: 50%;
+        height: 35%;
         }
         .footer-div1 form label{
             text-align: center;
         }
     .footer-logo{
         margin: auto;
-        width: 300px;
+        width: 250px;
     }
     .footer-div2{
         height: 700px;
