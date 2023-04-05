@@ -191,6 +191,7 @@ nav ul li {
         gap: 30px;
         padding: 30px;
         background: white;
+        z-index: 400;
     }
     nav ul li a:hover,
     .drop-down p:hover {
