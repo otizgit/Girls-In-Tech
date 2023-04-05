@@ -32,8 +32,7 @@ include('includes/header.php');
     </aside>
 </section>    
 <section class="second-section" data-aos="zoom-in"
-     data-aos-offset="200"
-     data-aos-easing="ease-in-sine">
+data-aos="zoom-in" data-aos-duration="800">
      <aside>
     <img src="images/girlsTech.jpg" alt="Girls In Tech">
     </aside>
