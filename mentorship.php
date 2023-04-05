@@ -67,7 +67,14 @@ echo '<script defer src="./js/mentorship.js"></script>';
                 </div>
                 <div class="form-content form-courses">
                     <label for="courses">Courses You Are Registering For:</label>
-                    <select id="courses" required></select>
+                    <select id="courses" required>
+                    <option value="">---select---</option>
+                    <option value="ui-ux">UI/UX</option>
+  <option value="frontend-development">Frontend Development</option>
+  <option value="computer-appreciation">Computer Appreciation
+& Microsoft Office</option>
+  <option value="graphic-design">Graphic Design</option>
+                    </select>
                 </div>
                 <div class="form-box">
                     <input type="email" placeholder="Email" required>
@@ -85,159 +92,46 @@ echo '<script defer src="./js/mentorship.js"></script>';
                         </select>
                     </div>
                     <div>
-                    <select name="city" class="mt-4">
-  <option value="">-- Select a city --</option>
-  <optgroup label="Abia">
-    <option value="Aba">Aba</option>
-    <option value="Umuahia">Umuahia</option>
-  </optgroup>
-  <optgroup label="Adamawa">
-    <option value="Yola">Yola</option>
-    <option value="Mubi">Mubi</option>
-  </optgroup>
-  <optgroup label="Akwa Ibom">
-    <option value="Uyo">Uyo</option>
-    <option value="Eket">Eket</option>
-  </optgroup>
-  <optgroup label="Anambra">
-    <option value="Awka">Awka</option>
-    <option value="Onitsha">Onitsha</option>
-  </optgroup>
-  <optgroup label="Bauchi">
-    <option value="Bauchi">Bauchi</option>
-    <option value="Azare">Azare</option>
-  </optgroup>
-  <optgroup label="Bayelsa">
-    <option value="Yenagoa">Yenagoa</option>
-    <option value="Brass">Brass</option>
-  </optgroup>
-  <optgroup label="Benue">
-    <option value="Makurdi">Makurdi</option>
-    <option value="Gboko">Gboko</option>
-  </optgroup>
-  <optgroup label="Borno">
-    <option value="Maiduguri">Maiduguri</option>
-    <option value="Bama">Bama</option>
-  </optgroup>
-  <optgroup label="Cross River">
-    <option value="Calabar">Calabar</option>
-    <option value="Odukpani">Odukpani</option>
-  </optgroup>
-  <optgroup label="Delta">
-    <option value="Warri">Warri</option>
-    <option value="Asaba">Asaba</option>
-  </optgroup>
-  <optgroup label="Ebonyi">
-    <option value="Abakaliki">Abakaliki</option>
-    <option value="Afikpo">Afikpo</option>
-  </optgroup>
-  <optgroup label="Edo">
-    <option value="Benin City">Benin City</option>
-    <option value="Auchi">Auchi</option>
-  </optgroup>
-  <optgroup label="Ekiti">
-    <option value="Ado-Ekiti">Ado-Ekiti</option>
-    <option value="Ikere-Ekiti">Ikere-Ekiti</option>
-  </optgroup>
-  <optgroup label="Enugu">
-    <option value="Enugu">Enugu</option>
-    <option value="Nsukka">Nsukka</option>
-  </optgroup>
-  <optgroup label="FCT">
-    <option value="Abuja">Abuja</option>
-  </optgroup>
-  <optgroup label="Gombe">
-    <option value="Gombe">Gombe</option>
-    <option value="Kumo">Kumo</option>
-  </optgroup>
-  <optgroup label="Imo">
-    <option value="Owerri">Owerri</option>
-    <option value="Okigwe">Okigwe</option>
-  </optgroup>
-  <optgroup label="Jigawa">
-    <option value="Dutse">Dutse</option>
-    <option value="Birnin Kudu">Birnin Kudu</option>
-  </optgroup>
-  <optgroup label="Kaduna">
-    <option value="Kaduna">Kaduna</option>
-    <option value="Zaria">Zaria</option>
-  </optgroup>
-  <optgroup label="Kano">
-    <option value="Kano">Kano</option>
-    <option value="Bichi">Bichi</option>
-  </optgroup>
-  <optgroup label="Katsina">
-    <option value="Katsina">Katsina</option>
-    <option value="Daura">Daura</option>
-  </optgroup>
-  <optgroup label="Kebbi">
-    <option value="Birnin Kebbi">Birnin Kebbi</option>
-    <option value="Yauri">Yauri</option>
-  </optgroup>
-  <optgroup label="Kogi">
-    <option value="Lokoja">Lokoja</option>
-    <option value="Idah">Idah</option>
-  </optgroup>
-  <optgroup label="Kwara">
-    <option value="Ilorin">Ilorin</option>
-    <option value="Offa">Offa</option>
-  </optgroup>
-  <optgroup label="Lagos">
-    <option value="Lagos">Lagos</option>
-    <option value="Ikeja">Ikeja</option>
-  </optgroup>
-  <optgroup label="Nasarawa">
-    <option value="Lafia">Lafia</option>
-    <option value="Keffi">Keffi</option>
-  </optgroup>
-  <optgroup label="Niger">
-    <option value="Minna">Minna</option>
-    <option value="Suleja">Suleja</option>
-  </optgroup>
-  <optgroup label="Ogun">
-    <option value="Abeokuta">Abeokuta</option>
-    <option value="Ijebu-Ode">Ijebu-Ode</option>
-  </optgroup>
-  <optgroup label="Ondo">
-    <option value="Akure">Akure</option>
-    <option value="Owo">Owo</option>
-  </optgroup>
-  <optgroup label="Osun">
-    <option value="Osogbo">Osogbo</option>
-    <option value="Ilesa">Ilesa</option>
-  </optgroup>
-  <optgroup label="Oyo">
-    <option value="Ibadan">Ibadan</option>
-    <option value="Ogbomoso">Ogbomoso</option>
-  </optgroup>
-  <optgroup label="Plateau">
-    <option value="Jos">Jos</option>
-    <option value="Shendam">Shendam</option>
-  </optgroup>
-  <optgroup label="Rivers">
-    <option value="Port Harcourt">Port Harcourt</option>
-    <option value="Bonny">Bonny</option>
-  </optgroup>
-  <optgroup label="Sokoto">
-    <option value="Sokoto">Sokoto</option>
-    <option value="Tambuwal">Tambuwal</option>
-  </optgroup>
-  <optgroup label="Taraba">
-    <option value="Jalingo">Jalingo</option>
-    <option value="Wukari">Wukari</option>
-</optgroup>
-<optgroup label="Yobe">
-    <option value="Damaturu">Damaturu</option>
-    <option value="Potiskum">Potiskum</option>
-  </optgroup>
-  <optgroup label="Zamfara">
-    <option value="Gusau">Gusau</option>
-    <option value="Kaura Namoda">Kaura Namoda</option>
-  </optgroup>
+                    <select name="nigeria-states" required class="mt-4">
+  <option value="">Select a State</option>
+  <option value="Abia">Abia</option>
+  <option value="Adamawa">Adamawa</option>
+  <option value="Akwa Ibom">Akwa Ibom</option>
+  <option value="Anambra">Anambra</option>
+  <option value="Bauchi">Bauchi</option>
+  <option value="Bayelsa">Bayelsa</option>
+  <option value="Benue">Benue</option>
+  <option value="Borno">Borno</option>
+  <option value="Cross River">Cross River</option>
+  <option value="Delta">Delta</option>
+  <option value="Ebonyi">Ebonyi</option>
+  <option value="Edo">Edo</option>
+  <option value="Ekiti">Ekiti</option>
+  <option value="Enugu">Enugu</option>
+  <option value="Gombe">Gombe</option>
+  <option value="Imo">Imo</option>
+  <option value="Jigawa">Jigawa</option>
+  <option value="Kaduna">Kaduna</option>
+  <option value="Kano">Kano</option>
+  <option value="Katsina">Katsina</option>
+  <option value="Kebbi">Kebbi</option>
+  <option value="Kogi">Kogi</option>
+  <option value="Kwara">Kwara</option>
+  <option value="Lagos">Lagos</option>
+  <option value="Nasarawa">Nasarawa</option>
+  <option value="Niger">Niger</option>
+  <option value="Ogun">Ogun</option>
+  <option value="Ondo">Ondo</option>
+  <option value="Osun">Osun</option>
+  <option value="Oyo">Oyo</option>
+  <option value="Plateau">Plateau</option>
+  <option value="Rivers">Rivers</option>
+  <option value="Sokoto">Sokoto</option>
+  <option value="Taraba">Taraba</option>
+  <option value="Yobe">Yobe</option>
+  <option value="Zamfara">Zamfara</option>
+</select>
 
-
-
-                                              <select id="city" required></select>
                     </div>
                 </div>
                 <div class="form-content">

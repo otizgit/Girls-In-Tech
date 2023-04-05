@@ -55,11 +55,6 @@
     box-shadow: 39px 39px 78px 0 rgb(203 184 255 / 11%);
 }
 
-@media (max-width: 991px){
-    .feature-block {
-        /* max-height: 260px; */
-    }
-}
 
 @media (max-width: 767px){
     .feature-block {
@@ -71,7 +66,6 @@
 @media (max-width: 479px){
     .feature-block {
         width: auto;
-        /* max-width: 230px; */
         min-width: 210px;
     }
 }
@@ -147,11 +141,6 @@ p {
 section .row {
     margin-top: 76px;
 }
-
-/* .logo {
-    background-color: black;
-    border: 2px solid black;
-} */
 
 .mentorship-form {
     inset: 0;
