@@ -33,7 +33,7 @@ include('includes/header.php');
 The GirlsInTech X Cisco Cyber Academy program provides women with access to training materials, virtual labs, and hands-on experience in cybersecurity. Participants will also have access to mentorship and networking opportunities with industry professionals.
                 </div>
                 <!-- TODO: Replace this picture with a picture of a girl studying cybersecurity -->
-                <div class="cyber-img"><img src="./images/girlsTech.jpg" alt="girlsTech"></div>
+                <div class="cyber-img"><img src="./images/girls-tech3.jpg" alt="girlsTech"></div>
             </div>
         </div>
     </main>

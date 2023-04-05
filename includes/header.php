@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/news_and_event.css">
+    <!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Link Font -->
     <!-- <script defer src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script> -->

@@ -20,12 +20,14 @@ include('includes/header.php');
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
   rel="stylesheet"
 />
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!-- Main Page Content Section -->
 
     <!-- Top Hero Section -->
     <section id="hero-section" class="hero">
-        <div class="container px-0">
+        <div class="container px-0" data-aos="fade-up" data-aos-duration="2000">
                 <h2 class="">Girls in Tech</h2>
                 <p>Girls in Tech is a non-profit organization that is keyed into the development, guidance and mentorship of young girls from the ages of 12 and above. It is a community that welcomes and focuses on the grooming of young girls, it also gives young girls the opportunity to explore the technology space. The organization's main aim is to ensure that girls and women in Nigeria are fully represented in the STEM field and occupations, especially in information technology.<br/></p>
             <div class="button-wrapper mentee"><p class="button-hero w-button">Join Our Community</ptarget=></div>
@@ -170,7 +172,7 @@ include('includes/header.php');
     <section>
         <div class="container">
             <div class="row ">
-                <div class="col-lg-6 px-0 px-lg-5">
+                <div class="col-lg-6 px-0 px-lg-5" data-aos="fade-right">
                 <h1 class="heading-33">GirlsInTech: Mentorship</h1>
                     <p class="margin-bottom-24px-3">The GirlsInTech Mentoring Program aims to pair girls and women with mentors at all stages of their journey to provide guidance and motivation, helping mentees to unlock their potential and achieve personal and professional goals. Our objective is to assist mentees in navigating their fields successfully. During the enrollment process, mentees will be matched with mentors based on factors such as location, industry, and skills.<br/><br/>Applications for Mentors and Mentees are now Open</p>
                     <a href="./mentorship.php" class="link-arrow w-inline-block">
@@ -495,6 +497,12 @@ include('includes/header.php');
             </form>
         </div>
 
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
+        
       
 <?php
 include('includes/footer.php')

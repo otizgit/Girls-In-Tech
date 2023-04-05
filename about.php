@@ -22,7 +22,7 @@ include('includes/header.php');
 
 
 <section class="first-section">
-<article>
+<article data-aos="zoom-in">
     <h1>What is Girls In Tech?</h1>
     <p>Girls in Tech is a non-profit organization that is keyed into the development, guidance and mentorship of young girls from the ages of 12 and above. It is a community that welcomes and focuses on the grooming of young girls, it also gives young girls the opportunity to explore the technology space. The organization's main aim is to ensure that girls and women in Nigeria are fully represented in the STEM field and occupations, especially in information technology</p>
     <a href="#">Sign Up </a>
@@ -31,14 +31,17 @@ include('includes/header.php');
     <img src="images/girls-tech1.jpg" alt="Girls In Tech">
     </aside>
 </section>    
-<section class="second-section">
+<section class="second-section" data-aos="zoom-in"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine">
+     <aside>
+    <img src="images/girlsTech.jpg" alt="Girls In Tech">
+    </aside>
 <article>
     <h1>Why is our work so important?</h1>
     <p>Our work here at Girls in Tech helps young girls build skills and experience that will last throughout their life time. It opens them up to opportunities, create platforms and prepares the mindset of young girls while creating awareness of what the tech world has to offer thereby bridging the gender gap present in then tech space.</p>
     </article>
-<aside>
-    <img src="images/girlsTech.jpg" alt="Girls In Tech">
-    </aside>
+
 </section>
 <div class="goals">
 <h2>Our Goals</h2>
