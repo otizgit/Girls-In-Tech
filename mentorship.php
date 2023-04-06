@@ -1,6 +1,7 @@
 <?php
 $title = 'Mentorship | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/mentorship.css">';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php');
 echo '<script defer src="./js/mentorship.js"></script>';
 
@@ -230,6 +231,10 @@ echo '<script defer src="./js/mentorship.js"></script>';
     </div>
     <!-- Carousel wrapper -->
 
+    <?php
+            include('includes/donate.php')
+
+        ?>
    <!-- MDB -->
     <script
     type="text/javascript"

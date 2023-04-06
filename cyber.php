@@ -1,6 +1,7 @@
 <?php
 $title = 'Cyber | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/cyber.css">';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php');
 
 ?>
@@ -252,6 +253,10 @@ The GirlsInTech X Cisco Cyber Academy program provides women with access to trai
     </div>
     <!-- Carousel wrapper -->
 
+    <?php
+            include('includes/donate.php')
+
+        ?>
    <!-- MDB -->
     <script
     type="text/javascript"

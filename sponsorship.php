@@ -1,6 +1,8 @@
 <?php
 $title = 'Sponsorship | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/sponsorship.css">';
+echo '<script defer src="./js/donate.js"></script>';
+
 include('includes/header.php');
 
 ?>
@@ -60,6 +62,10 @@ include('includes/header.php');
 </form>
 
 
+<?php
+            include('includes/donate.php')
+
+        ?>
 
 
 </main>

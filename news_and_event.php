@@ -1,6 +1,8 @@
 <?php
 $title = 'News and Event | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/news_and_event.css">';
+echo '<script defer src="./js/donate.js"></script>';
+
 include('includes/header.php');
 
 ?>
@@ -233,6 +235,10 @@ include('includes/header.php');
     </button>
     </div>
 
+    <?php
+            include('includes/donate.php')
+
+        ?>
    <!-- MDB -->
     <script
     type="text/javascript"

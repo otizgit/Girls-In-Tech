@@ -2,6 +2,7 @@
 $title = 'Bootcamp | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/programs.css">';
 echo '<script defer src="./js/home.js"></script>';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php'); ?>
 
 <!-- Font Awesome -->
@@ -313,6 +314,11 @@ include('includes/header.php'); ?>
         <span class="visually-hidden">Next</span>
     </button>
     </div>
+
+    <?php
+            include('includes/donate.php')
+
+        ?>
 
     <script
     type="text/javascript"

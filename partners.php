@@ -1,6 +1,8 @@
 <?php
 $title = 'Partners | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/partners.css">';
+echo '<script defer src="./js/donate.js"></script>';
+
 include('includes/header.php');
 
 ?>
@@ -133,6 +135,11 @@ include('includes/header.php');
     </div>
     <!-- Carousel Wallpaper -->
    <!-- MDB -->
+
+   <?php
+            include('includes/donate.php')
+
+        ?>
     <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>

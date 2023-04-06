@@ -1,6 +1,7 @@
 <?php
 $title = 'About | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/about.css">';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php');
 ?>
 
@@ -116,7 +117,10 @@ data-aos="zoom-in" data-aos-duration="800">
 
 </div>
 </div>
+<?php
+            include('includes/donate.php')
 
+        ?>
 
    <!-- MDB -->
     <script
