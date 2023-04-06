@@ -1,6 +1,8 @@
 <?php
 $title = 'Companies | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/companies.css">';
+echo '<script defer src="./js/donate.js"></script>';
+
 include('includes/header.php');
 ?>
 
@@ -229,6 +231,11 @@ include('includes/header.php');
     </button>
     </div>
     <!-- Carousel wrapper -->
+
+    <?php
+            include('includes/donate.php')
+
+        ?>
 
    <!-- MDB -->
     <script

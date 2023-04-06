@@ -1,6 +1,7 @@
 <?php
 $title = 'Career Guide | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/career.css">';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php');
 
 ?>
@@ -182,6 +183,11 @@ include('includes/header.php');
         <span class="visually-hidden">Next</span>
     </button>
     </div>
+
+    <?php
+            include('includes/donate.php')
+
+        ?>
     <!-- Carousel wrapper -->
 
    <!-- MDB -->

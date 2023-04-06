@@ -2,6 +2,7 @@
 $title = 'Home | GirlsInTech';
 $css_file = '<link rel="stylesheet" href="css/home_body.css">';
 echo '<script defer src="./js/home.js"></script>';
+echo '<script defer src="./js/donate.js"></script>';
 include('includes/header.php');
 
 ?>
@@ -496,6 +497,11 @@ include('includes/header.php');
                 <button type="submit"><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
             </form>
         </div>
+
+        <?php
+            include('includes/donate.php')
+
+        ?>
 
         <!-- AOS -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
