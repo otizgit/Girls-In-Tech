@@ -134,8 +134,11 @@ span,
 .card-logo img {
   width: 100%;
 }
+.logo2{
+  overflow: hidden;
+}
 .logo2 img {
-  width: 80%;
+  width: 100%;
 }
 .parent .div1 .description {
   text-align: center;

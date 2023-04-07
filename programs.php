@@ -120,7 +120,7 @@ include('includes/header.php'); ?>
     </div>
     <div class="div1">
       <div class="card-logo logo2">
-        <img src="images/webdev.svg" alt="" />
+        <img src="images/computer.svg" alt="" />
       </div>
       <div class="description">
         <h3 class="my-2">Computer Appreciation <br/>&amp; Microsoft Office</h3>
@@ -132,7 +132,7 @@ include('includes/header.php'); ?>
     </div>
     <div class="div1">
       <div class="card-logo logo2">
-        <img src="images/webdev.svg" alt="" />
+        <img src="images/design.svg" alt="" />
       </div>
       <div class="description">
         <h3 class="my-2">Graphic Design</h3>
