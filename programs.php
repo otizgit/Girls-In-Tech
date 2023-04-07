@@ -83,7 +83,7 @@ include('includes/header.php'); ?>
           </li>
           <li>
             &nbsp;Candidates will then be notified wether or not they have been
-            accepted onto the bootcamp by November 30th.
+            accepted onto the bootcamp by April 17th, 2023.
           </li>
         </ol>
         <span
@@ -101,7 +101,7 @@ include('includes/header.php'); ?>
       <div class="description">
         <h3 class="my-2">UI/UX Bootcamp</h3>
         <p>Starting on</p>
-        <h4 class="fw-semibold">14th April 2023</h4>
+        <h4 class="fw-semibold">17th April 2023</h4>
         <p>Duration : 12 Weeks</p>
         <button class="mentee">Register Here</button>
       </div>
@@ -113,7 +113,7 @@ include('includes/header.php'); ?>
       <div class="description">
         <h3 class="my-2">Frontend Development</h3>
         <p>Starting on</p>
-        <h4 class="fw-semibold">14th April 2023</h4>
+        <h4 class="fw-semibold">17th April 2023</h4>
         <p>Duration : 24 Weeks</p>
         <button class="mentee">Regiser Here</button>
       </div>
@@ -125,7 +125,7 @@ include('includes/header.php'); ?>
       <div class="description">
         <h3 class="my-2">Computer Appreciation <br/>&amp; Microsoft Office</h3>
         <p>Starting on</p>
-        <h4 class="fw-semibold">14th April 2023</h4>
+        <h4 class="fw-semibold">17th April 2023</h4>
         <p>Duration : 24 Weeks</p>
         <button class="mentee">Regiser Here</button>
       </div>
@@ -137,7 +137,7 @@ include('includes/header.php'); ?>
       <div class="description">
         <h3 class="my-2">Graphic Design</h3>
         <p>Starting on</p>
-        <h4 class="fw-semibold">14th April 2023</h4>
+        <h4 class="fw-semibold">17th April 2023</h4>
         <p>Duration : 24 Weeks</p>
         <button class="mentee">Regiser Here</button>
       </div>

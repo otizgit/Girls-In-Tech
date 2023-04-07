@@ -45,17 +45,17 @@ include('includes/header.php');
                         <!-- Goal Card -->
                         <div class="feature-block"><img src="images/home_body_images/60aff1022bfea43c6895539c_Feature%20Icon%203.svg" alt="" class="feature-icon" /><br>
                             <h4>Goal One</h4><br>
-                            <p>Giving girls and women ownership and educational opportunities in the technology space because ownership paves thee way for learning opportunities for all girls and women. In line with sustainable development goal four</p>
+                            <p>Giving girls and women ownership and educational opportunities in the technology space because ownership paves the way for learning opportunities for all girls and women. This goal is in line with sustainable development goal four which addresses quality education</p>
                         </div> 
                         <!-- Goal Card -->
                         <div class="feature-block feature-02"><img src="images/home_body_images/60aff1022bfea428ca95539d_Feature%20Icon%202.svg" alt="" class="feature-icon" />
                             <h4>Goal Two</h4><br>
-                            <p>Preparing girls and women for the future in technology to equalize the gender gap in the tech space thereby taking the SDG goal five into the tech space.</p>
+                            <p>Preparing girls and women for the future in technology to equalize the gender gap in the tech space thereby taking the SDG goal five into the tech space. Preparing girls and women to innovate in the knowledge economy addresses SDG goal 5 which targets gender equality.</p>
                         </div>
                         <!-- Goal Card -->
                         <div class="feature-block"><img src="images/home_body_images/60aff1022bfea4a17f9553a4_Feature%20Icon%204.svg" alt="" class="feature-icon" />
                             <h4>Goal Three</h4><br>
-                            <p>Advocating for girls and women starts with leadership because making girls and women leaders in technology empower them to reject sustained abuses, subjugation, and forced early marriages.</p>
+                            <p>Advocating for girls and women starts with leadership because making girls and women collaborators and leaders in technology empowers them to reject sustained abuses, subjugation, and forced early marriages.</p>
                         </div>
                         <!-- Goal Card -->
                         <!-- <div class="feature-block feature-02"><img src="images/home_body_images/60aff1022bfea474639553f0_Feature%20Icon%201.svg" alt="" class="feature-icon" />

@@ -93,7 +93,7 @@ form button{
    @media(max-width: 922px){
     footer{
         flex-direction:column;
-        height: 240vh;
+        height: 220vh;
     }
     .footer-div1 form {
       height: 50%;

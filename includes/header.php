@@ -59,7 +59,7 @@
                                 <!-- <li><a href="career_guide.php">Career</a></li> -->
                             </ul>
                         </li>
-                        <li class="lists"><a href="companies.php">Merch</a></li>
+                        <li class="lists"><a href="./merch.php">Merch</a></li>
                         <!-- <li class="lists"><a href="partners.php">Partners</a></li> -->
                         <li class="lists"><a href="./sponsorship.php">Sponsorship</a></li>
                     </ul>
